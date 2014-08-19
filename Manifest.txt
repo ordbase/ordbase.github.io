@@ -1,0 +1,6 @@
+HISTORY.md
+Manifest.txt
+README.md
+Rakefile
+lib/worldlite.rb
+lib/worldlite/version.rb
