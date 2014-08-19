@@ -3,4 +3,8 @@ Manifest.txt
 README.md
 Rakefile
 lib/worldlite.rb
+lib/worldlite/country.rb
+lib/worldlite/europe/at_austria.rb
 lib/worldlite/version.rb
+test/helper.rb
+test/test_world.rb

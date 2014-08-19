@@ -6,6 +6,10 @@
 
 require 'worldlite/version' # let it always go first
 
+require 'worldlite/country'
+
+
+require 'worldlite/europe/at_austria'
 
 
 

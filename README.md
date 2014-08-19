@@ -18,7 +18,8 @@ TBD
 
 Ruby
 
-- ??
+- [countries gem](https://github.com/hexorx/countries) by Josh Robinson (aka hexorx)
+- [world gem](https://github.com/gferraz/world) by Gilson Ferraz César (aka gferraz); work-in-progress
 
 Others
 
