@@ -16,13 +16,21 @@ class TestWorld < MiniTest::Unit::TestCase   ## Minitest::Test
     puts "WORLD_ISO  #{WORLD_ISO.size}"
     puts "WORLD_FIFA #{WORLD_FIFA.size}"
     puts "WORLD_G8   #{WORLD_G8.size}"
+
+    pp WORLD_G8
+
     puts "WORLD_G20  #{WORLD_G20.size}"
+
+    pp WORLD_G20
+
     puts "WORLD_COMMONWEALTH #{WORLD_COMMONWEALTH.size}"
 
     puts ""
     puts "EUROPE      #{EUROPE.size}"
     puts "EUROPE_EU   #{EUROPE_EU.size}"
     puts "EUROPE_EURO #{EUROPE_EURO.size}"
+    
+    pp WORLD
   end
 
   def test_at

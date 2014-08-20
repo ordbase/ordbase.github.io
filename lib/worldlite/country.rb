@@ -61,6 +61,10 @@ class Country
    end
 
 
+   def inspect
+     ## note: for now use a shorter pretty print (pp) format
+     "<#Country name=|#{name}|, key=|#{key}|, to_path=|#{to_path}|>"
+   end
 
   def initialize
     @kind = 'CTRY'   # default to 'sovereign' country - why? why not?
