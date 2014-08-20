@@ -3,25 +3,27 @@
 module WorldLite
 
   c = Country.new
-  c.name   = "Cook Islands"
+  c.name   = 'Cook Islands'
   c.key    = 'ck'
-#  c.num    =  ???  # check if leading zero leads to octal num system?? just use 21 ??
-#  c.alpha2 = '??'
-#  c.alpha3 = '???'
-  c.fifa   = ''
-#  c.ioc    = '???'
+  c.alpha3 = 'COK'
+  c.fifa   = nil
+  c.net    = 'ck'
 
 
 
+  c.continent_name =  'Pacific'
+
+  c.un     = false
+  c.eu     = false
+  c.euro   = false
+
+  ##  Cook Islands / Pacific
   CK = c
 
   WORLD      << CK
+  WORLD_ISO  << CK
 
 
 
 
 end  # module WorldLite
-
-
-
-

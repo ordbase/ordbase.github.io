@@ -3,25 +3,28 @@
 module WorldLite
 
   c = Country.new
-  c.name   = "México [Mexico]"
+  c.name   = 'México '
   c.key    = 'mx'
-#  c.num    =  ???  # check if leading zero leads to octal num system?? just use 21 ??
-#  c.alpha2 = '??'
-#  c.alpha3 = '???'
+  c.alpha3 = 'MEX'
   c.fifa   = 'MEX'
-#  c.ioc    = '???'
+  c.net    = 'mx'
 
 
 
+  c.continent_name =  'North America'
+
+  c.un     = false
+  c.eu     = false
+  c.euro   = false
+
+  ##  México [Mexico] / North America
   MX = c
 
   WORLD      << MX
+  WORLD_ISO  << MX
+  WORLD_FIFA << MX
 
 
 
 
 end  # module WorldLite
-
-
-
-

@@ -3,25 +3,29 @@
 module WorldLite
 
   c = Country.new
-  c.name   = "Afghanistan"
+  c.name   = 'Afghanistan'
   c.key    = 'af'
-#  c.num    =  ???  # check if leading zero leads to octal num system?? just use 21 ??
-#  c.alpha2 = '??'
-#  c.alpha3 = '???'
+  c.alpha3 = 'AFG'
   c.fifa   = 'AFG'
-#  c.ioc    = '???'
+  c.net    = 'af'
 
 
 
+  c.continent_name =  'Asia'
+
+  c.un     = true
+  c.eu     = false
+  c.euro   = false
+
+  ##  Afghanistan / Asia
   AF = c
 
   WORLD      << AF
+  WORLD_UN   << AF
+  WORLD_ISO  << AF
+  WORLD_FIFA << AF
 
 
 
 
 end  # module WorldLite
-
-
-
-

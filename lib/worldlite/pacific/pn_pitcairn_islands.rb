@@ -3,25 +3,27 @@
 module WorldLite
 
   c = Country.new
-  c.name   = "Pitcairn Islands"
+  c.name   = 'Pitcairn Islands'
   c.key    = 'pn'
-#  c.num    =  ???  # check if leading zero leads to octal num system?? just use 21 ??
-#  c.alpha2 = '??'
-#  c.alpha3 = '???'
-  c.fifa   = ''
-#  c.ioc    = '???'
+  c.alpha3 = 'PCN'
+  c.fifa   = nil
+  c.net    = 'pn'
 
 
 
+  c.continent_name =  'Pacific'
+
+  c.un     = false
+  c.eu     = false
+  c.euro   = false
+
+  ##  Pitcairn Islands / Pacific
   PN = c
 
   WORLD      << PN
+  WORLD_ISO  << PN
 
 
 
 
 end  # module WorldLite
-
-
-
-

@@ -3,25 +3,30 @@
 module WorldLite
 
   c = Country.new
-  c.name   = "Saint Kitts and Nevis"
+  c.name   = 'Saint Kitts and Nevis'
   c.key    = 'kn'
-#  c.num    =  ???  # check if leading zero leads to octal num system?? just use 21 ??
-#  c.alpha2 = '??'
-#  c.alpha3 = '???'
+  c.alpha3 = 'KNA'
   c.fifa   = 'SKN'
-#  c.ioc    = '???'
+  c.net    = 'kn'
 
 
 
+  c.continent_name =  'Caribbean'
+
+  c.un     = true
+  c.eu     = false
+  c.euro   = false
+
+  ##  Saint Kitts and Nevis / Caribbean
   KN = c
 
   WORLD      << KN
+  WORLD_UN   << KN
+  WORLD_ISO  << KN
+  WORLD_FIFA << KN
+  WORLD_COMMONWEALTH  << KN
 
 
 
 
 end  # module WorldLite
-
-
-
-

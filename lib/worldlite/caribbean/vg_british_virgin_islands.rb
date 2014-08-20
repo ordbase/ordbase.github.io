@@ -3,25 +3,27 @@
 module WorldLite
 
   c = Country.new
-  c.name   = "British Virgin Islands"
+  c.name   = 'British Virgin Islands'
   c.key    = 'vg'
-#  c.num    =  ???  # check if leading zero leads to octal num system?? just use 21 ??
-#  c.alpha2 = '??'
-#  c.alpha3 = '???'
-  c.fifa   = ''
-#  c.ioc    = '???'
+  c.alpha3 = 'VGB'
+  c.fifa   = nil
+  c.net    = 'vg'
 
 
 
+  c.continent_name =  'Caribbean'
+
+  c.un     = false
+  c.eu     = false
+  c.euro   = false
+
+  ##  British Virgin Islands / Caribbean
   VG = c
 
   WORLD      << VG
+  WORLD_ISO  << VG
 
 
 
 
 end  # module WorldLite
-
-
-
-

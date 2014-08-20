@@ -3,25 +3,27 @@
 module WorldLite
 
   c = Country.new
-  c.name   = "Saint Martin (French)"
+  c.name   = 'Saint Martin (French)'
   c.key    = 'mf'
-#  c.num    =  ???  # check if leading zero leads to octal num system?? just use 21 ??
-#  c.alpha2 = '??'
-#  c.alpha3 = '???'
-  c.fifa   = ''
-#  c.ioc    = '???'
+  c.alpha3 = 'MAF'
+  c.fifa   = nil
+  c.net    = 'mf'
 
 
 
+  c.continent_name =  'Caribbean'
+
+  c.un     = false
+  c.eu     = false
+  c.euro   = false
+
+  ##  Saint Martin (French) / Caribbean
   MF = c
 
   WORLD      << MF
+  WORLD_ISO  << MF
 
 
 
 
 end  # module WorldLite
-
-
-
-
