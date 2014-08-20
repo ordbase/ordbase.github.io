@@ -6,11 +6,11 @@
 
 require 'worldlite/version' # let it always go first
 
-require 'worldlite/country'
+require 'worldlite/country'   ## structs e.g. Country etc.
 
-
-require 'worldlite/europe/at_austria'
-
+########################
+### get country data
+require 'worldlite/countries'
 
 
 
