@@ -108,6 +108,44 @@ def build_gem( opts={} )
 
 end # method build_gem
 
+#######
+# helpers
+
+def fmt_str( value, opts={} )    ## use: allow_nil as an option; needed? -why?? why not??
+  if value.nil? || value.empty?   # note: empty? is ''
+    'nil'
+  else
+    ## hack: remove translations []  e.g. México [Mexico] -> México etc.
+    value = value.gsub( /\[[^\]]+\]/, '' )
+    ## note: escape ' to \'  e.g. Cote d'ivoire etc.
+    value = value.gsub( "'", "\\'" )
+
+    "'#{value}'"
+  end
+end
+
+def fmt_bool( value, opts={} )
+  if value
+    'true'  
+  else
+    'false'
+  end
+end
+
+
+#####
+# todo: move to country model itself - why? why not???
+def has_tag?( country, tag_key )
+  tags = country.tags.top.select { |tag| tag.key == tag_key }
+  if tags.size > 0
+    true
+  else
+    false
+  end
+end
+
+
+
 
 def read_template( name )
   path = "#{File.dirname( __FILE__ )}/#{name}.erb"
@@ -120,7 +158,7 @@ def render_template( name, b )
 
   # create and run templates, filling member data variables
   #  new(str, safe_level=nil, trim_mode=nil, eoutvar='_erbout')
-  ERB.new( tmpl ).result( b )
+  ERB.new( tmpl, 0, '<>' ).result( b )
 end
 
 

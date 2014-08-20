@@ -3,63 +3,59 @@
 module WorldLite
 
   c = Country.new
-  c.name   = "<%= country.name %>"
-  c.key    = '<%= country.key %>'
+  c.name   = <%= fmt_str( country.name ) %>
+  c.key    = <%= fmt_str( country.key )  %>
+  c.alpha3 = <%= fmt_str( country.iso3 ) %>
+  c.fifa   = <%= fmt_str( country.fifa ) %>
+  c.net    = <%= fmt_str( country.net  ) %>
+
+<%#
 #  c.num    =  ???  # check if leading zero leads to octal num system?? just use 21 ??
 #  c.alpha2 = '??'
-#  c.alpha3 = '???'
-  c.fifa   = '<%= country.fifa %>'
 #  c.ioc    = '???'
+ %>
 
-<%#  use tag to check (or flag) ??
-  c.un     = true
-%>
+  c.continent_name =  <%= fmt_str( country.continent.name ) %>
 
+  c.un     = <%= fmt_bool( has_tag?( country, 'un' )) %>
+  c.eu     = <%= fmt_bool( has_tag?( country, 'eu' )) %>
+  c.euro   = <%= fmt_bool( has_tag?( country, 'euro' )) %>
+
+  #  <%= country.name %> / <%= country.continent.name %>
   <%= country.key.upcase %> = c
 
   WORLD      << <%= country.key.upcase %>
+<% if has_tag?( country, 'un' ) %>
+  WORLD_UN   << <%= country.key.upcase %>
+<% end %>
+<% if country.iso3 %>
+  WORLD_ISO  << <%= country.key.upcase %>
+<% end %>
+<% if country.fifa %>
+  WORLD_FIFA << <%= country.key.upcase %>
+<% end %>
+<% if has_tag?( country, 'g8' ) %>
+  WORLD_G8   << <%= country.key.upcase %>
+<% end %>
+<% if has_tag?( country, 'g20' ) %>
+  WORLD_G20  << <%= country.key.upcase %>
+<% end %>
+<% if has_tag?( country, 'commonwealth' ) %>
+  WORLD_COMMONWEALTH  << <%= country.key.upcase %>
+<% end %>
+
+<% if country.continent.name == 'Europe' %>
+  EUROPE       << <%= country.key.upcase %>
+<% end %>
+<% if has_tag?( country, 'eu' ) %>
+  EUROPE_EU    << <%= country.key.upcase %>
+<% end %>
+<% if has_tag?( country, 'euro' ) %>
+  EUROPE_EURO  << <%= country.key.upcase %>
+<% end %>
 
 <%# use tags to check (or flags) or continent etc. ??
-  WORLD_UN   << AT
-  WORLD_ISO  << AT
-  WORLD_FIFA << AT
-  
-  EUROPE       << AT
-  EUROPE_UEFA  << AT
-  EUROPE_EU    << AT
-  EUROPE_EURO  << AT
+#  EUROPE_UEFA  << AT
 %>
 
-
 end  # module WorldLite
-
-
-
-<%#   Merged/filled in example:
-
-module WorldLite
-
-  c = Country.new
-  c.name   = 'Austria'
-  c.key    = 'at'
-  c.num    = 021  # check if leading zero leads to octal num system?? just use 21 ??
-  c.alpha2 = 'at'
-  c.alpha3 = 'aut'
-  c.fifa   = 'aut'
-  c.ioc    = 'aut'
-  c.un     = true
-
-  AT = c
-
-  WORLD      << AT   ## add to world ary
-  WORLD_UN   << AT
-  WORLD_ISO  << AT
-  WORLD_FIFA << AT
-  
-  EUROPE       << AT
-  EUROPE_UEFA  << AT
-  EUROPE_EU    << AT
-  EUROPE_EURO  << AT
-
-end  # module WorldLite
-%>

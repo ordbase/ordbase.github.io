@@ -15,3 +15,4 @@ require 'worldlite/countries'
 
 
 puts WorldLite.banner    ## say hello
+## puts "  WorldLite.root >#{WorldLite.root}<"
