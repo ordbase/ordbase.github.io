@@ -46,7 +46,7 @@ module WorldLite
 end  # module WorldLite
 ```
 
-(Source: [`worldlite/europe/at-austria.rb`](lib/worldlite/europe/at-austria.rb))
+(Source: [`worldlite/europe/at-austria.rb`](https://github.com/worlddb/world.lite.ruby/blob/master/lib/worldlite/europe/at_austria.rb))
 
 
 Use like:
@@ -80,7 +80,7 @@ Use like:
 
 >> AT.class.name
 => WorldLite::Country
->> AT.name             # get name for country AT
+>> AT.name              # get name for country AT
 => Austria
 >> AT.continent_name
 => Europe
