@@ -5,7 +5,7 @@ Hoe.spec 'worldlite' do
 
   self.version = WorldLite::VERSION
 
-  self.summary = "worldlite - country data (lightweight - all data included as good ol' ruby code - no database, no dependencies)"
+  self.summary = "worldlite - lightweight public domain country data (all data included as good ol' ruby code - no database, no dependencies, no copyright)"
   self.description = summary
 
   self.urls = ['https://github.com/worlddb/world.lite.ruby']
@@ -24,4 +24,3 @@ Hoe.spec 'worldlite' do
   }
 
 end
-

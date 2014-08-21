@@ -1,4 +1,4 @@
-# worldlite - country data (lightweight - all data included as good ol' ruby code - no database, no dependencies)
+# worldlite - lightweight public domain country data (all data included as good ol' ruby code - no database, no dependencies, no copyright)
 
 * home  :: [github.com/worlddb/world.lite.ruby](https://github.com/worlddb/world.lite.ruby)
 * bugs  :: [github.com/worlddb/world.lite.ruby/issues](https://github.com/worlddb/world.lite.ruby/issues)
@@ -199,8 +199,39 @@ Use like:
 
 Ruby
 
-- [countries gem](https://github.com/hexorx/countries) by Josh Robinson (aka hexorx)
-- [world gem](https://github.com/gferraz/world) by Gilson Ferraz César (aka gferraz); work-in-progress
+- [countries gem](https://github.com/hexorx/countries)
+  by Josh Robinson (aka hexorx);
+  iso country codes n more
+
+- [iso_country_codes gem](https://github.com/alexrabarts/iso_country_codes)
+  by Alex Rabarts;
+  iso country codes n more
+
+- [carmen gem](https://github.com/jim/carmen)
+  by Jim Benton (aka jim);
+  iso country codes n more
+
+- [i18n_data](https://github.com/grosser/i18n_data)
+  by Michael Grosser (aka grosser);
+  iso country codes; country/language names in 85 languages
+
+- [iso-639 gem](https://github.com/alphabetum/iso-639)
+  by William Melody (aka alphabetum);
+  iso language codes 
+
+- [world gem](https://github.com/gferraz/world)
+  by Gilson Ferraz César (aka gferraz);
+  work-in-progress
+
+- Search the Ruby Toolbox w/
+  [`country`](https://www.ruby-toolbox.com/search?q=country),
+  ['world'](https://www.ruby-toolbox.com/search?q=world),
+  ['iso+code'](https://www.ruby-toolbox.com/search?q=iso+code)
+
+- Search RubyGems w/
+  [`country`](https://rubygems.org/search?query=country),
+  [`world`](https://rubygems.org/search?query=world),
+  [`iso+code`](https://rubygems.org/search?query=iso+code)
 
 Others
 
