@@ -18,19 +18,25 @@ module WorldLite
   c = Country.new
   c.name   = 'Austria'
   c.key    = 'at'
-  c.alpha3 = 'AUT'
-  c.fifa   = 'AUT'
-  c.net    = 'at'
+  c.alpah2 = 'AT'     # iso two-letter country code (ISO 3166-1 alpha-2)
+  c.alpha3 = 'AUT'    # iso three-letter country code (ISO 3166-1 alpha-3)
+  c.fifa   = 'AUT'    # football country code (fifa = Fédération Internationale de Football Association)
+  c.ioc    = 'AUT'    # olympics country code (ioc = International Olympic Committee)
+  c.net    = 'at'     # internet top level domain
+  c.motor  = 'A'      # motor vehicle license plate code
+  c.num3   = '040'    # iso numeric three-digits code as string (ISO 3166-1 numeric)
+  c.num    = 40       # iso numeric code as number
 
   c.continent_name =  'Europe'
 
-  c.un     = true
-  c.eu     = true
-  c.euro   = true
+  c.un     = true     # United Nations member?  -- 193 member countries
+  c.eu     = true     # European Union member?  -- 27 member countries
+  c.euro   = true     # Euro Zone member?       -- 17 member countries
 
-  c.wikipedia = 'Austria'
-  c.wikidata  = '1431'
-  c.factbook  = 'au'
+  c.wikipedia = 'Austria'   # e.g. see en.wikipedia.org/wiki/Austria
+  c.wikidata  = 40          # e.g. see wikidata.org/wiki/Q40
+  c.factbook  = 'au'        # e.g. see www.cia.gov/library/publications/the-world-factbook/geos/au.html
+
 
   AT = c
 
@@ -98,12 +104,18 @@ Use like:
 => true
 >> AT.euro?
 => true
->> AT.wikidata
-=> 1432
 >> AT.wikpedia
 => Austria
+>> AT.wikidata
+=> 40
+>> AT.wikpedia_url
+=> http://en.wikipedia.org/wiki/Austria
+>> AT.wikidata_url
+=> http://www.wikidata.org/wiki/Q40
 >> AT.factbook
 => au
+>> AT.factbook_url
+=> http://www.cia.gov/library/publications/the-world-factbook/geos/au.html
 ```
 
 ### Bonus: World Factbook

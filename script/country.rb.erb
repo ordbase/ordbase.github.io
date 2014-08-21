@@ -22,6 +22,7 @@ module WorldLite
   c.euro   = <%= fmt_bool( has_tag?( country, 'euro' )) %>
 
   #  <%= country.name %> / <%= country.continent.name %>
+  #    tags: <%= fmt_tags( country.tags ) %>
   <%= country.key.upcase %> = c
 
   WORLD      << <%= country.key.upcase %>

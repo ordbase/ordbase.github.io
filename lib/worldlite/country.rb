@@ -61,6 +61,19 @@ class Country
    end
 
 
+   def wikpedia_url
+     "http://en.wikipedia.org/wiki/#{wikpedia}"
+   end
+
+   def wikidata_url
+     "http://www.wikidata.org/wiki/Q#{wikidata}"
+   end
+
+   def factbook_url
+     "http://www.cia.gov/library/publications/the-world-factbook/geos/#{factbook}.html"
+   end
+
+
    def inspect
      ## note: for now use a shorter pretty print (pp) format
      "<#Country name=|#{name}|, key=|#{key}|, to_path=|#{to_path}|>"

@@ -46,21 +46,18 @@ def build_gem( opts={} )
   # note: use same order as table of contents
   Continent.order(:name).each do |continent|
     continent.countries.order(:name).each do |country|
-      puts "build country page #{country.key}..."
+
       path = country.to_path
       path = path.tr( '-', '_' )  ## change at-austria to at_austria
-      puts "path=#{path}"
+
+      puts "build country page #{country.key} (path=#{path})..."
 
       files << path
 
       output_path = "#{BUILD_DIR}/#{path}.rb"
-      ## make sure path exists
-      FileUtils.mkdir_p( File.dirname( output_path ) )
 
-
-      File.open( output_path, 'w' ) do |f|
-        f.write render_country( country, opts )
-      end
+      page = CountryPage.new( country )
+      page.save( output_path )
     end
   end
 
@@ -108,6 +105,44 @@ def build_gem( opts={} )
 
 end # method build_gem
 
+
+
+def read_template( name )
+  path = "#{File.dirname( __FILE__ )}/#{name}.erb"
+  tmpl = File.read( path )
+  tmpl
+end
+
+
+
+class CountryPage
+
+  attr_reader :country
+  attr_reader :opts
+
+  def initialize( country, opts={} )
+    @country = country
+    @opts    = opts
+  end
+
+  def render( opts={})
+    tmpl = read_template( 'country.rb' )
+
+   # create and run templates, filling member data variables
+   #  new(str, safe_level=nil, trim_mode=nil, eoutvar='_erbout')
+   # note: save_level = 0 - ignores save_level 
+    ERB.new( tmpl, 0, '<>' ).result( binding )
+  end
+
+  def save( path )
+    ## make sure path exists
+    FileUtils.mkdir_p( File.dirname( path ))
+    
+    File.open( path, 'w' ) do |f|
+      f.write render( opts )
+    end
+  end
+
 #######
 # helpers
 
@@ -119,6 +154,7 @@ def fmt_str( value, opts={} )    ## use: allow_nil as an option; needed? -why?? 
     value = value.gsub( /\[[^\]]+\]/, '' )
     ## note: escape ' to \'  e.g. Cote d'ivoire etc.
     value = value.gsub( "'", "\\'" )
+    value = value.strip   # remove leading n trailings whitespaces
 
     "'#{value}'"
   end
@@ -132,6 +168,10 @@ def fmt_bool( value, opts={} )
   end
 end
 
+def fmt_tags( tags, opts={} )
+  tag_keys = tags.top.map { |tag| tag.key }
+  tag_keys.join(', ')
+end
 
 #####
 # todo: move to country model itself - why? why not???
@@ -144,29 +184,7 @@ def has_tag?( country, tag_key )
   end
 end
 
-
-
-
-def read_template( name )
-  path = "#{File.dirname( __FILE__ )}/#{name}.erb"
-  tmpl = File.read( path )
-  tmpl
-end
-
-def render_template( name, b )
-  tmpl = read_template( name )
-
-  # create and run templates, filling member data variables
-  #  new(str, safe_level=nil, trim_mode=nil, eoutvar='_erbout')
-  ERB.new( tmpl, 0, '<>' ).result( b )
-end
-
-
-def render_country( country, opts={} )
-  b = binding
-  render_template( 'country.rb', b )
-end
-
+end  # class CountryPage
 
 
 build_gem()
