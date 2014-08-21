@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Indonesia / Asia
+  #  Indonesia / Asia
+  #    tags: asia
   ID = c
 
   WORLD      << ID

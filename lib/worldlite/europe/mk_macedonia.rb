@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Macedonia / Europe
+  #  Macedonia / Europe
+  #    tags: europe, southern europe, southeastern europe, balkans, un, fifa, uefa
   MK = c
 
   WORLD      << MK

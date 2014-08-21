@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Gambia / Africa
+  #  Gambia / Africa
+  #    tags: africa, western africa, un, commonwealth, fifa, caf
   GM = c
 
   WORLD      << GM

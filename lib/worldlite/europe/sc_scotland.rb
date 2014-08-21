@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Scotland / Europe
+  #  Scotland / Europe
+  #    tags: europe, northern europe, western europe, fifa, uefa, territory
   SC = c
 
   WORLD      << SC

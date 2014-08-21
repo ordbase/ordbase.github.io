@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Trinidad and Tobago / Caribbean
+  #  Trinidad and Tobago / Caribbean
+  #    tags: caribbean, un, commonwealth, fifa, concacaf, concacaf cfu
   TT = c
 
   WORLD      << TT

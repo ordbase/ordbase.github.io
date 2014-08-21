@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Sierra Leone / Africa
+  #  Sierra Leone / Africa
+  #    tags: africa, western africa, un, commonwealth, fifa, caf
   SL = c
 
   WORLD      << SL

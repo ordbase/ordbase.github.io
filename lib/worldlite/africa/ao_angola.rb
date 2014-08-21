@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Angola / Africa
+  #  Angola / Africa
+  #    tags: africa, central africa, un, fifa, caf
   AO = c
 
   WORLD      << AO

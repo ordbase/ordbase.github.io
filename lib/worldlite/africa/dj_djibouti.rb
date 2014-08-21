@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Djibouti / Africa
+  #  Djibouti / Africa
+  #    tags: africa, eastern africa, un, fifa, caf
   DJ = c
 
   WORLD      << DJ

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Comoros / Africa
+  #  Comoros / Africa
+  #    tags: africa, eastern africa, un, fifa, caf
   KM = c
 
   WORLD      << KM

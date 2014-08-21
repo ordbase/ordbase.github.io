@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Slovakia / Europe
+  #  Slovakia / Europe
+  #    tags: europe, central europe, un, eu, fifa, uefa, euro, schengen
   SK = c
 
   WORLD      << SK

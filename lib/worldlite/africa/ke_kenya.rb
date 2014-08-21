@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Kenya / Africa
+  #  Kenya / Africa
+  #    tags: africa, eastern africa, un, commonwealth, fifa, caf
   KE = c
 
   WORLD      << KE

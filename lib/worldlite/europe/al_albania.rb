@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Albania / Europe
+  #  Albania / Europe
+  #    tags: europe, southern europe, southeastern europe, balkans, un, fifa, uefa
   AL = c
 
   WORLD      << AL

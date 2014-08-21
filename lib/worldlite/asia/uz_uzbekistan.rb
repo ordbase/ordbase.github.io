@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Uzbekistan / Asia
+  #  Uzbekistan / Asia
+  #    tags: asia, un, fifa, afc, central asia
   UZ = c
 
   WORLD      << UZ

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Oman / Middle East
+  #  Oman / Middle East
+  #    tags: middle east, un, fifa, afc, western asia, afc waff, arabian peninsula
   OM = c
 
   WORLD      << OM

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Jamaica / Caribbean
+  #  Jamaica / Caribbean
+  #    tags: caribbean, un, commonwealth, fifa, concacaf, concacaf cfu
   JM = c
 
   WORLD      << JM

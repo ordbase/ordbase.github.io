@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Israel / Middle East
+  #  Israel / Middle East
+  #    tags: middle east, un, fifa, uefa, western asia, fertile crescent
   IL = c
 
   WORLD      << IL

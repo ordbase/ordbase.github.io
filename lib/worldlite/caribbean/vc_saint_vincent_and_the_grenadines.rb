@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Saint Vincent and the Grenadines / Caribbean
+  #  Saint Vincent and the Grenadines / Caribbean
+  #    tags: caribbean, un, commonwealth, fifa, concacaf, microstate, concacaf cfu
   VC = c
 
   WORLD      << VC

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Faroe Islands / Europe
+  #  Faroe Islands / Europe
+  #    tags: europe, northern europe, nordic, fifa, uefa, territory
   FO = c
 
   WORLD      << FO

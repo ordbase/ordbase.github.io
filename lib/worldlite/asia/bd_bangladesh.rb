@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Bangladesh / Asia
+  #  Bangladesh / Asia
+  #    tags: asia, un, commonwealth, fifa, afc, south asia
   BD = c
 
   WORLD      << BD

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Saint Kitts and Nevis / Caribbean
+  #  Saint Kitts and Nevis / Caribbean
+  #    tags: caribbean, un, commonwealth, fifa, concacaf, microstate, concacaf cfu
   KN = c
 
   WORLD      << KN

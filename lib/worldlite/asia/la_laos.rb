@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Laos / Asia
+  #  Laos / Asia
+  #    tags: asia, un, fifa, afc, southeast asia
   LA = c
 
   WORLD      << LA

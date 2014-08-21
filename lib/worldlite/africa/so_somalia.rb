@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Somalia / Africa
+  #  Somalia / Africa
+  #    tags: africa, eastern africa, un, fifa, caf
   SO = c
 
   WORLD      << SO

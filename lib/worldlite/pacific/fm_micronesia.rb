@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Micronesia / Pacific
+  #  Micronesia / Pacific
+  #    tags: un, microstate, pacific, micronesia
   FM = c
 
   WORLD      << FM

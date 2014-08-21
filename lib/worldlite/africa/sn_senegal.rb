@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Senegal / Africa
+  #  Senegal / Africa
+  #    tags: africa, western africa, un, fifa, caf
   SN = c
 
   WORLD      << SN

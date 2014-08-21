@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Vatican City / Europe
+  #  Vatican City / Europe
+  #    tags: europe, southern europe, microstate
   VA = c
 
   WORLD      << VA

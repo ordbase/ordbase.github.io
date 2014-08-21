@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  North Korea / Asia
+  #  North Korea / Asia
+  #    tags: asia, un, fifa, afc, east asia
   KP = c
 
   WORLD      << KP

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Bosnia and Herzegovina / Europe
+  #  Bosnia and Herzegovina / Europe
+  #    tags: europe, southern europe, southeastern europe, balkans, un, fifa, uefa
   BA = c
 
   WORLD      << BA

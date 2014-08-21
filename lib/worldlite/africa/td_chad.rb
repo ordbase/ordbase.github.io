@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Chad / Africa
+  #  Chad / Africa
+  #    tags: africa, central africa, un, fifa, caf
   TD = c
 
   WORLD      << TD

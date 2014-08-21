@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Madagascar / Africa
+  #  Madagascar / Africa
+  #    tags: africa, eastern africa, un, fifa, caf
   MG = c
 
   WORLD      << MG

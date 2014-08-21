@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Serbia / Europe
+  #  Serbia / Europe
+  #    tags: europe, southern europe, southeastern europe, balkans, un, fifa, uefa
   RS = c
 
   WORLD      << RS

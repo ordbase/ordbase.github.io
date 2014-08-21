@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  São Tomé and Príncipe / Africa
+  #  São Tomé and Príncipe / Africa
+  #    tags: africa, central africa, atlantic ocean, un, fifa, caf, microstate
   ST = c
 
   WORLD      << ST

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Burundi / Africa
+  #  Burundi / Africa
+  #    tags: africa, eastern africa, un, fifa, caf
   BI = c
 
   WORLD      << BI

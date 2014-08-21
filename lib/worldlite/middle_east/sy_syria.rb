@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Syria / Middle East
+  #  Syria / Middle East
+  #    tags: middle east, un, fifa, afc, western asia, afc waff, fertile crescent
   SY = c
 
   WORLD      << SY

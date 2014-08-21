@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Gabon / Africa
+  #  Gabon / Africa
+  #    tags: africa, central africa, un, fifa, caf
   GA = c
 
   WORLD      << GA

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Estonia / Europe
+  #  Estonia / Europe
+  #    tags: europe, northern europe, eastern europe, baltic, un, eu, fifa, uefa, euro, schengen
   EE = c
 
   WORLD      << EE

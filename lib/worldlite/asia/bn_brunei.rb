@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Brunei / Asia
+  #  Brunei / Asia
+  #    tags: asia, un, commonwealth, fifa, afc, southeast asia
   BN = c
 
   WORLD      << BN

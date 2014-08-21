@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Malta / Europe
+  #  Malta / Europe
+  #    tags: europe, southern europe, un, eu, commonwealth, fifa, uefa, euro, schengen, microstate, mediterranean
   MT = c
 
   WORLD      << MT

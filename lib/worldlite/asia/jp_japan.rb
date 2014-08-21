@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Japan / Asia
+  #  Japan / Asia
+  #    tags: asia
   JP = c
 
   WORLD      << JP

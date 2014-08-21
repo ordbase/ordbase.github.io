@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Hong Kong / Asia
+  #  Hong Kong / Asia
+  #    tags: asia, fifa, afc, east asia, territory
   HK = c
 
   WORLD      << HK

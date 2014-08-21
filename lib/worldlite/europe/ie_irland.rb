@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Irland / Europe
+  #  Irland / Europe
+  #    tags: europe, northern europe, western europe, un, eu, fifa, uefa, euro
   IE = c
 
   WORLD      << IE

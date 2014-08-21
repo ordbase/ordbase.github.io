@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  New Zealand / Pacific
+  #  New Zealand / Pacific
+  #    tags: un, commonwealth, fifa, ofc, pacific, polynesia
   NZ = c
 
   WORLD      << NZ

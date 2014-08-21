@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Switzerland / Europe
+  #  Switzerland / Europe
+  #    tags: europe, western europe, central europe, un, fifa, uefa, schengen
   CH = c
 
   WORLD      << CH

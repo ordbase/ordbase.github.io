@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Peru / South America
+  #  Peru / South America
+  #    tags: south america, andean states, un, fifa, conmebol
   PE = c
 
   WORLD      << PE

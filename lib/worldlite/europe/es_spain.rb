@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Spain / Europe
+  #  Spain / Europe
+  #    tags: europe, southern europe, un, eu, fifa, uefa, euro, schengen
   ES = c
 
   WORLD      << ES

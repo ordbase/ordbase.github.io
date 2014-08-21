@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Guernsey / Europe
+  #  Guernsey / Europe
+  #    tags: europe, western europe, territory
   GG = c
 
   WORLD      << GG

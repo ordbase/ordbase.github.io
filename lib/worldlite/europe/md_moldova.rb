@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Moldova / Europe
+  #  Moldova / Europe
+  #    tags: europe, eastern europe, un, fifa, uefa
   MD = c
 
   WORLD      << MD

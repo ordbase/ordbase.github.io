@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Mozambique / Africa
+  #  Mozambique / Africa
+  #    tags: africa, eastern africa, un, commonwealth, fifa, caf
   MZ = c
 
   WORLD      << MZ

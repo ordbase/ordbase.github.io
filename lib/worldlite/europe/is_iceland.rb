@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Iceland / Europe
+  #  Iceland / Europe
+  #    tags: europe, northern europe, nordic, un, fifa, uefa, schengen
   IS = c
 
   WORLD      << IS

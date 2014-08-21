@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Christmas Island / Asia
+  #  Christmas Island / Asia
+  #    tags: asia, territory
   CX = c
 
   WORLD      << CX

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Kuwait / Middle East
+  #  Kuwait / Middle East
+  #    tags: middle east, un, fifa, afc, western asia, afc waff, arabian peninsula
   KW = c
 
   WORLD      << KW

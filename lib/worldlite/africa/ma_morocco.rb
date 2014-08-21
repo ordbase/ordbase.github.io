@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Morocco / Africa
+  #  Morocco / Africa
+  #    tags: africa, northern africa, un, fifa, caf
   MA = c
 
   WORLD      << MA

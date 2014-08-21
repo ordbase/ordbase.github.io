@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Austria / Europe
+  #  Austria / Europe
+  #    tags: europe, western europe, central europe, un, eu, fifa, uefa, euro, schengen
   AT = c
 
   WORLD      << AT

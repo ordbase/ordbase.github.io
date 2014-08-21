@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Antigua and Barbuda / Caribbean
+  #  Antigua and Barbuda / Caribbean
+  #    tags: caribbean, un, commonwealth, fifa, concacaf, microstate, concacaf cfu
   AG = c
 
   WORLD      << AG

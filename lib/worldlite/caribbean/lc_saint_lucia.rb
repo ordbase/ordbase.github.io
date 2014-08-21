@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Saint Lucia / Caribbean
+  #  Saint Lucia / Caribbean
+  #    tags: caribbean, un, commonwealth, fifa, concacaf, microstate, concacaf cfu
   LC = c
 
   WORLD      << LC

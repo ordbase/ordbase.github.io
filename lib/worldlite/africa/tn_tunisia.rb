@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Tunisia / Africa
+  #  Tunisia / Africa
+  #    tags: africa, northern africa, un, fifa, caf
   TN = c
 
   WORLD      << TN

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Cameroon / Africa
+  #  Cameroon / Africa
+  #    tags: africa, central africa, un, commonwealth, fifa, caf
   CM = c
 
   WORLD      << CM

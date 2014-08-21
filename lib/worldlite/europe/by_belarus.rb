@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Belarus / Europe
+  #  Belarus / Europe
+  #    tags: europe, eastern europe, un, fifa, uefa
   BY = c
 
   WORLD      << BY

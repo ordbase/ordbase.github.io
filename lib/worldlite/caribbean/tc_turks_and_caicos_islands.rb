@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Turks and Caicos Islands / Caribbean
+  #  Turks and Caicos Islands / Caribbean
+  #    tags: caribbean, territory
   TC = c
 
   WORLD      << TC

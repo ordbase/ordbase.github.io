@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Cook Islands / Pacific
+  #  Cook Islands / Pacific
+  #    tags: pacific, territory
   CK = c
 
   WORLD      << CK

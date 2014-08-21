@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  South Africa / Africa
+  #  South Africa / Africa
+  #    tags: africa, southern africa, un, g5, g20, commonwealth, fifa, caf
   ZA = c
 
   WORLD      << ZA

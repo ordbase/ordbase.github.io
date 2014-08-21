@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  El Salvador / Central America
+  #  El Salvador / Central America
+  #    tags: central america, un, fifa, concacaf, concacaf uncaf
   SV = c
 
   WORLD      << SV

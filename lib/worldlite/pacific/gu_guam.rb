@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Guam / Pacific
+  #  Guam / Pacific
+  #    tags: pacific, territory
   GU = c
 
   WORLD      << GU

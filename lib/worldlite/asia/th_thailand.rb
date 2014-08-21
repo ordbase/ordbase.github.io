@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Thailand / Asia
+  #  Thailand / Asia
+  #    tags: asia, un, fifa, afc, southeast asia
   TH = c
 
   WORLD      << TH

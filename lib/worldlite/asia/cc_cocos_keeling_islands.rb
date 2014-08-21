@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Cocos (Keeling) Islands / Asia
+  #  Cocos (Keeling) Islands / Asia
+  #    tags: asia, territory
   CC = c
 
   WORLD      << CC

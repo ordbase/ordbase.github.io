@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Lesotho / Africa
+  #  Lesotho / Africa
+  #    tags: africa, southern africa, un, commonwealth, fifa, caf
   LS = c
 
   WORLD      << LS

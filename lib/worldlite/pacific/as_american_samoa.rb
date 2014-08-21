@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  American Samoa / Pacific
+  #  American Samoa / Pacific
+  #    tags: pacific, territory
   AS = c
 
   WORLD      << AS

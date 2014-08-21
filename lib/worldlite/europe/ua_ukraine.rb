@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Ukraine / Europe
+  #  Ukraine / Europe
+  #    tags: europe, eastern europe, un, fifa, uefa
   UA = c
 
   WORLD      << UA

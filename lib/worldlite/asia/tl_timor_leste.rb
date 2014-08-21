@@ -3,7 +3,7 @@
 module WorldLite
 
   c = Country.new
-  c.name   = 'Timor-Leste '
+  c.name   = 'Timor-Leste'
   c.key    = 'tl'
   c.alpha3 = 'TLS'
   c.fifa   = 'TLS'
@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Timor-Leste [East Timor] / Asia
+  #  Timor-Leste [East Timor] / Asia
+  #    tags: asia, un, fifa, afc, southeast asia
   TL = c
 
   WORLD      << TL

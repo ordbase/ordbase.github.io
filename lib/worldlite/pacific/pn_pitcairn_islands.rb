@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Pitcairn Islands / Pacific
+  #  Pitcairn Islands / Pacific
+  #    tags: pacific, territory
   PN = c
 
   WORLD      << PN

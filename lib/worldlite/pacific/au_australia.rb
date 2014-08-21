@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Australia / Pacific
+  #  Australia / Pacific
+  #    tags: un, g20, commonwealth, fifa, afc, pacific
   AU = c
 
   WORLD      << AU

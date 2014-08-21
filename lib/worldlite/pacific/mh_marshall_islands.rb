@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Marshall Islands / Pacific
+  #  Marshall Islands / Pacific
+  #    tags: un, microstate, pacific, micronesia
   MH = c
 
   WORLD      << MH

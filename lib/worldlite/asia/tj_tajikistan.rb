@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Tajikistan / Asia
+  #  Tajikistan / Asia
+  #    tags: asia, un, fifa, afc, central asia
   TJ = c
 
   WORLD      << TJ

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Haiti / Caribbean
+  #  Haiti / Caribbean
+  #    tags: caribbean, un, fifa, concacaf, concacaf cfu
   HT = c
 
   WORLD      << HT

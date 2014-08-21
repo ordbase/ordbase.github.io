@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Palau / Pacific
+  #  Palau / Pacific
+  #    tags: un, microstate, pacific, micronesia
   PW = c
 
   WORLD      << PW

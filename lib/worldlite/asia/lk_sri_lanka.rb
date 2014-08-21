@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Sri Lanka / Asia
+  #  Sri Lanka / Asia
+  #    tags: asia, un, commonwealth, fifa, afc, south asia
   LK = c
 
   WORLD      << LK

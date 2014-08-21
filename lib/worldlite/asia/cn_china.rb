@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  China / Asia
+  #  China / Asia
+  #    tags: asia
   CN = c
 
   WORLD      << CN

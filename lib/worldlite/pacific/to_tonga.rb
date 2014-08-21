@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Tonga / Pacific
+  #  Tonga / Pacific
+  #    tags: un, commonwealth, fifa, ofc, microstate, pacific, polynesia
   TO = c
 
   WORLD      << TO

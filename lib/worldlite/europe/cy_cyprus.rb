@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Cyprus / Europe
+  #  Cyprus / Europe
+  #    tags: asia, europe, southern europe, middle east, un, eu, commonwealth, fifa, uefa, euro, western asia, mediterranean
   CY = c
 
   WORLD      << CY

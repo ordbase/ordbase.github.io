@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Mayotte / Africa
+  #  Mayotte / Africa
+  #    tags: africa, territory
   YT = c
 
   WORLD      << YT

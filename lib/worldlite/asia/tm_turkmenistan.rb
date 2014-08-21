@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Turkmenistan / Asia
+  #  Turkmenistan / Asia
+  #    tags: asia, un, fifa, afc, central asia
   TM = c
 
   WORLD      << TM

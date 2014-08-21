@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Cayman Islands / Caribbean
+  #  Cayman Islands / Caribbean
+  #    tags: caribbean, territory
   KY = c
 
   WORLD      << KY

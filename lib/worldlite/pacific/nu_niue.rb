@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Niue / Pacific
+  #  Niue / Pacific
+  #    tags: pacific, territory
   NU = c
 
   WORLD      << NU

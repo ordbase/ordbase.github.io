@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Namibia / Africa
+  #  Namibia / Africa
+  #    tags: africa, southern africa, un, commonwealth, fifa, caf
   NA = c
 
   WORLD      << NA

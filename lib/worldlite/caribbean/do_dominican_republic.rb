@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Dominican Republic / Caribbean
+  #  Dominican Republic / Caribbean
+  #    tags: caribbean, un, fifa, concacaf, concacaf cfu
   DO = c
 
   WORLD      << DO

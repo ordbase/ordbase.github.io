@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  French Guiana / South America
+  #  French Guiana / South America
+  #    tags: south america, territory
   GF = c
 
   WORLD      << GF

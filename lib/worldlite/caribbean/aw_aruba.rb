@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Aruba / Caribbean
+  #  Aruba / Caribbean
+  #    tags: caribbean, territory
   AW = c
 
   WORLD      << AW

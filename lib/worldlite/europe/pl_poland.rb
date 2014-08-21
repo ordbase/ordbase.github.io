@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = false
 
-  ##  Poland / Europe
+  #  Poland / Europe
+  #    tags: europe, central europe, un, eu, fifa, uefa, schengen
   PL = c
 
   WORLD      << PL

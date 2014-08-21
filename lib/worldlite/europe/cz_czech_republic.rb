@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = false
 
-  ##  Czech Republic / Europe
+  #  Czech Republic / Europe
+  #    tags: europe, central europe, un, eu, fifa, uefa, schengen
   CZ = c
 
   WORLD      << CZ

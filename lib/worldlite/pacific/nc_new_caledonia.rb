@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  New Caledonia / Pacific
+  #  New Caledonia / Pacific
+  #    tags: pacific, territory
   NC = c
 
   WORLD      << NC

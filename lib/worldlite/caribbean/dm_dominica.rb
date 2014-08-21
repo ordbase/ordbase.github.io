@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Dominica / Caribbean
+  #  Dominica / Caribbean
+  #    tags: caribbean, un, commonwealth, fifa, concacaf, microstate, concacaf cfu
   DM = c
 
   WORLD      << DM

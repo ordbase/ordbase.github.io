@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Suriname / South America
+  #  Suriname / South America
+  #    tags: south america, un, fifa, concacaf, concacaf cfu
   SR = c
 
   WORLD      << SR

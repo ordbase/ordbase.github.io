@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = false
 
-  ##  Hungary / Europe
+  #  Hungary / Europe
+  #    tags: europe, central europe, un, eu, fifa, uefa, schengen
   HU = c
 
   WORLD      << HU

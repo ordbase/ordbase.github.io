@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Turkey / Europe
+  #  Turkey / Europe
+  #    tags: europe
   TR = c
 
   WORLD      << TR

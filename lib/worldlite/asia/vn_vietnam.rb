@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Vietnam / Asia
+  #  Vietnam / Asia
+  #    tags: asia, un, fifa, afc, southeast asia
   VN = c
 
   WORLD      << VN

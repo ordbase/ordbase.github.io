@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Tanzania / Africa
+  #  Tanzania / Africa
+  #    tags: africa, eastern africa, un, commonwealth, fifa, caf
   TZ = c
 
   WORLD      << TZ

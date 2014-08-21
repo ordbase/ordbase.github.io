@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Taiwan / Asia
+  #  Taiwan / Asia
+  #    tags: asia, fifa, afc, east asia
   TW = c
 
   WORLD      << TW

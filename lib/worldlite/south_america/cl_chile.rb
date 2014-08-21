@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Chile / South America
+  #  Chile / South America
+  #    tags: south america, southern cone, un, fifa, conmebol
   CL = c
 
   WORLD      << CL

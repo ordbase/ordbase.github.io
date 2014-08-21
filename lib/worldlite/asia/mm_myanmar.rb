@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Myanmar / Asia
+  #  Myanmar / Asia
+  #    tags: asia, un, fifa, afc, southeast asia
   MM = c
 
   WORLD      << MM

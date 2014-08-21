@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Fiji / Pacific
+  #  Fiji / Pacific
+  #    tags: un, commonwealth, fifa, ofc, pacific, melanesia
   FJ = c
 
   WORLD      << FJ

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Argentina / South America
+  #  Argentina / South America
+  #    tags: south america, southern cone, un, g20, fifa, conmebol
   AR = c
 
   WORLD      << AR

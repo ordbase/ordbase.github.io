@@ -3,7 +3,7 @@
 module WorldLite
 
   c = Country.new
-  c.name   = 'Latvija '
+  c.name   = 'Latvija'
   c.key    = 'lv'
   c.alpha3 = 'LVA'
   c.fifa   = 'LVA'
@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = false
 
-  ##  Latvija [Latvia] / Europe
+  #  Latvija [Latvia] / Europe
+  #    tags: europe, northern europe, baltic, un, eu, fifa, uefa, schengen
   LV = c
 
   WORLD      << LV

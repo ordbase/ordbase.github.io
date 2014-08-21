@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Macau / Asia
+  #  Macau / Asia
+  #    tags: asia, east asia, territory
   MO = c
 
   WORLD      << MO

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Cambodia / Asia
+  #  Cambodia / Asia
+  #    tags: asia, un, fifa, afc, southeast asia
   KH = c
 
   WORLD      << KH

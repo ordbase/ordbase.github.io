@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Monaco / Europe
+  #  Monaco / Europe
+  #    tags: europe, western europe, un, microstate
   MC = c
 
   WORLD      << MC

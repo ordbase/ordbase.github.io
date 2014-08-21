@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Uruguay / South America
+  #  Uruguay / South America
+  #    tags: south america, southern cone, un, fifa, conmebol
   UY = c
 
   WORLD      << UY

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Greenland / North America
+  #  Greenland / North America
+  #    tags: north america, territory
   GL = c
 
   WORLD      << GL

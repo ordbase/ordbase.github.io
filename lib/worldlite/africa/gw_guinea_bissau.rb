@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Guinea-Bissau / Africa
+  #  Guinea-Bissau / Africa
+  #    tags: africa, western africa, un, fifa, caf
   GW = c
 
   WORLD      << GW

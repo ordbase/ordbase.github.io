@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Liberia / Africa
+  #  Liberia / Africa
+  #    tags: africa, western africa, un, fifa, caf
   LR = c
 
   WORLD      << LR

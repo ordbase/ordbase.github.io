@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Zimbabwe / Africa
+  #  Zimbabwe / Africa
+  #    tags: africa, eastern africa, un, fifa, caf
   ZW = c
 
   WORLD      << ZW

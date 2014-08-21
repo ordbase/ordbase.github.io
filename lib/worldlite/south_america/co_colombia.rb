@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Colombia / South America
+  #  Colombia / South America
+  #    tags: south america, andean states, un, fifa, conmebol
   CO = c
 
   WORLD      << CO

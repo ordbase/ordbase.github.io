@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Anguilla / Caribbean
+  #  Anguilla / Caribbean
+  #    tags: caribbean, territory
   AI = c
 
   WORLD      << AI

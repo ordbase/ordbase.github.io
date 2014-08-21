@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Kiribati / Pacific
+  #  Kiribati / Pacific
+  #    tags: un, commonwealth, microstate, pacific, micronesia
   KI = c
 
   WORLD      << KI

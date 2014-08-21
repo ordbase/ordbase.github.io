@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Croatia / Europe
+  #  Croatia / Europe
+  #    tags: europe, southern europe, southeastern europe, balkans, un, fifa, uefa
   HR = c
 
   WORLD      << HR

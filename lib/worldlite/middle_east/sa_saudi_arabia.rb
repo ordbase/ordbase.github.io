@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Saudi Arabia / Middle East
+  #  Saudi Arabia / Middle East
+  #    tags: middle east
   SA = c
 
   WORLD      << SA

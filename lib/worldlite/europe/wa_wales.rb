@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Wales / Europe
+  #  Wales / Europe
+  #    tags: europe, northern europe, western europe, fifa, uefa, territory
   WA = c
 
   WORLD      << WA

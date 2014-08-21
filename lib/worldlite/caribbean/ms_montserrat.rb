@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Montserrat / Caribbean
+  #  Montserrat / Caribbean
+  #    tags: caribbean, territory
   MS = c
 
   WORLD      << MS

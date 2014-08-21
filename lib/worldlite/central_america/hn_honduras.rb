@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Honduras / Central America
+  #  Honduras / Central America
+  #    tags: central america, un, fifa, concacaf, concacaf uncaf
   HN = c
 
   WORLD      << HN

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Zambia / Africa
+  #  Zambia / Africa
+  #    tags: africa, eastern africa, un, commonwealth, fifa, caf
   ZM = c
 
   WORLD      << ZM

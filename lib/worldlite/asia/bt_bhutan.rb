@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Bhutan / Asia
+  #  Bhutan / Asia
+  #    tags: asia, un, fifa, afc, south asia
   BT = c
 
   WORLD      << BT

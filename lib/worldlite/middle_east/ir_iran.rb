@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Iran / Middle East
+  #  Iran / Middle East
+  #    tags: middle east, un, fifa, afc, western asia, afc waff
   IR = c
 
   WORLD      << IR

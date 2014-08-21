@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Ecuador / South America
+  #  Ecuador / South America
+  #    tags: south america, andean states, un, fifa, conmebol
   EC = c
 
   WORLD      << EC

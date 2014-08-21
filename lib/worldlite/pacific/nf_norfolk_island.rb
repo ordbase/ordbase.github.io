@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Norfolk Island / Pacific
+  #  Norfolk Island / Pacific
+  #    tags: pacific, territory
   NF = c
 
   WORLD      << NF

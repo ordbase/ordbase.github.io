@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Paraguay / South America
+  #  Paraguay / South America
+  #    tags: south america, southern cone, un, fifa, conmebol
   PY = c
 
   WORLD      << PY

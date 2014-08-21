@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Wallis and Futuna / Pacific
+  #  Wallis and Futuna / Pacific
+  #    tags: pacific, territory
   WF = c
 
   WORLD      << WF

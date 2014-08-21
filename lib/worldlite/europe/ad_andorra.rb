@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Andorra / Europe
+  #  Andorra / Europe
+  #    tags: europe, western europe, un, fifa, uefa, microstate
   AD = c
 
   WORLD      << AD

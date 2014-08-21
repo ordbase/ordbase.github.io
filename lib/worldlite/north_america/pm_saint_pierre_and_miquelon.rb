@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Saint Pierre and Miquelon / North America
+  #  Saint Pierre and Miquelon / North America
+  #    tags: north america, territory
   PM = c
 
   WORLD      << PM

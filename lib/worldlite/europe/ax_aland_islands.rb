@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Åland Islands / Europe
+  #  Åland Islands / Europe
+  #    tags: europe, northern europe, nordic, territory
   AX = c
 
   WORLD      << AX

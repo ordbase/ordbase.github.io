@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Guinea / Africa
+  #  Guinea / Africa
+  #    tags: africa, western africa, un, fifa, caf
   GN = c
 
   WORLD      << GN

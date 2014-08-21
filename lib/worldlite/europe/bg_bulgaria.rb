@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = false
 
-  ##  Bulgaria / Europe
+  #  Bulgaria / Europe
+  #    tags: europe, eastern europe, southeastern europe, un, eu, fifa, uefa
   BG = c
 
   WORLD      << BG

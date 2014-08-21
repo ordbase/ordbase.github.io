@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Guadeloupe / Caribbean
+  #  Guadeloupe / Caribbean
+  #    tags: caribbean, concacaf, concacaf cfu, territory
   GP = c
 
   WORLD      << GP

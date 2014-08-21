@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Equatorial Guinea / Africa
+  #  Equatorial Guinea / Africa
+  #    tags: africa, central africa, un, fifa, caf
   GQ = c
 
   WORLD      << GQ

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Cape Verde / Africa
+  #  Cape Verde / Africa
+  #    tags: africa, western africa, un, fifa, caf
   CV = c
 
   WORLD      << CV

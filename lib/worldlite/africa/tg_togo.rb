@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Togo / Africa
+  #  Togo / Africa
+  #    tags: africa, western africa, un, fifa, caf
   TG = c
 
   WORLD      << TG

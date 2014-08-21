@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Lebanon / Middle East
+  #  Lebanon / Middle East
+  #    tags: middle east, un, fifa, afc, western asia, afc waff, fertile crescent
   LB = c
 
   WORLD      << LB

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  South Georgia and South Sandwich / South America
+  #  South Georgia and South Sandwich / South America
+  #    tags: south america, territory
   GS = c
 
   WORLD      << GS

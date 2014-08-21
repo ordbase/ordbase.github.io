@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Libya / Africa
+  #  Libya / Africa
+  #    tags: africa, northern africa, un, fifa, caf
   LY = c
 
   WORLD      << LY

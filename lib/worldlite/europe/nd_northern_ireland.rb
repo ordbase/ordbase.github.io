@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Northern Ireland / Europe
+  #  Northern Ireland / Europe
+  #    tags: europe, northern europe, western europe, fifa, uefa, territory
   ND = c
 
   WORLD      << ND

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Solomon Islands / Pacific
+  #  Solomon Islands / Pacific
+  #    tags: un, commonwealth, fifa, ofc, pacific, melanesia
   SB = c
 
   WORLD      << SB

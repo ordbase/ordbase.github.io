@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Qatar / Middle East
+  #  Qatar / Middle East
+  #    tags: middle east, un, fifa, afc, western asia, afc waff, arabian peninsula
   QA = c
 
   WORLD      << QA

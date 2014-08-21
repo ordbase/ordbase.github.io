@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Papua New Guinea / Pacific
+  #  Papua New Guinea / Pacific
+  #    tags: un, commonwealth, fifa, ofc, pacific, melanesia
   PG = c
 
   WORLD      << PG

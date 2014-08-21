@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Egypt / Africa
+  #  Egypt / Africa
+  #    tags: africa, northern africa, middle east, un, fifa, caf
   EG = c
 
   WORLD      << EG

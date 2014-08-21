@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Nauru / Pacific
+  #  Nauru / Pacific
+  #    tags: un, commonwealth, microstate, pacific, micronesia
   NR = c
 
   WORLD      << NR

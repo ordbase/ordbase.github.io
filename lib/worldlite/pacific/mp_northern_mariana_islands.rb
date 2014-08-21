@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Northern Mariana Islands / Pacific
+  #  Northern Mariana Islands / Pacific
+  #    tags: pacific, territory
   MP = c
 
   WORLD      << MP

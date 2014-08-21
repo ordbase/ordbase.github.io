@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Ethiopia / Africa
+  #  Ethiopia / Africa
+  #    tags: africa, eastern africa, un, fifa, caf
   ET = c
 
   WORLD      << ET

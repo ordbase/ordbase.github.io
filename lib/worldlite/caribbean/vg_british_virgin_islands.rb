@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  British Virgin Islands / Caribbean
+  #  British Virgin Islands / Caribbean
+  #    tags: caribbean, territory
   VG = c
 
   WORLD      << VG

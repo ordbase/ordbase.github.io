@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Benin / Africa
+  #  Benin / Africa
+  #    tags: africa, western africa, un, fifa, caf
   BJ = c
 
   WORLD      << BJ

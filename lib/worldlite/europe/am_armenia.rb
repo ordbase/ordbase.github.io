@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Armenia / Europe
+  #  Armenia / Europe
+  #    tags: europe, un, fifa, uefa, western asia, south caucasus
   AM = c
 
   WORLD      << AM

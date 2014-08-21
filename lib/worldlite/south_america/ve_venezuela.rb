@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Venezuela / South America
+  #  Venezuela / South America
+  #    tags: south america, andean states, un, fifa, conmebol
   VE = c
 
   WORLD      << VE

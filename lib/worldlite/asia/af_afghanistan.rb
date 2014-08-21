@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Afghanistan / Asia
+  #  Afghanistan / Asia
+  #    tags: asia, un, fifa, afc, central asia, south asia
   AF = c
 
   WORLD      << AF

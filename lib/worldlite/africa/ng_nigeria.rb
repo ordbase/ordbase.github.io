@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Nigeria / Africa
+  #  Nigeria / Africa
+  #    tags: africa, western africa, un, commonwealth, fifa, caf
   NG = c
 
   WORLD      << NG

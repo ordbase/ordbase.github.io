@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Iraq / Middle East
+  #  Iraq / Middle East
+  #    tags: middle east, un, fifa, afc, western asia, afc waff, fertile crescent
   IQ = c
 
   WORLD      << IQ

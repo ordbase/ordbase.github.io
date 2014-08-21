@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Mauritania / Africa
+  #  Mauritania / Africa
+  #    tags: africa, western africa, un, fifa, caf
   MR = c
 
   WORLD      << MR

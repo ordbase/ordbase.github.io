@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Swaziland / Africa
+  #  Swaziland / Africa
+  #    tags: africa, southern africa, un, commonwealth, fifa, caf
   SZ = c
 
   WORLD      << SZ

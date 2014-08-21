@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Bermuda / Caribbean
+  #  Bermuda / Caribbean
+  #    tags: caribbean, territory
   BM = c
 
   WORLD      << BM

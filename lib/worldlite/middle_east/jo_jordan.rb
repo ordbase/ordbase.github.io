@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Jordan / Middle East
+  #  Jordan / Middle East
+  #    tags: middle east, un, fifa, afc, western asia, afc waff, fertile crescent
   JO = c
 
   WORLD      << JO

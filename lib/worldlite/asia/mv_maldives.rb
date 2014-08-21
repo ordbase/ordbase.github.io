@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Maldives / Asia
+  #  Maldives / Asia
+  #    tags: asia, un, commonwealth, fifa, afc, microstate, south asia
   MV = c
 
   WORLD      << MV

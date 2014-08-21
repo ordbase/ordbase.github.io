@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = false
 
-  ##  Great Britain / Europe
+  #  Great Britain / Europe
+  #    tags: europe, northern europe, western europe, un, g8, g20, eu, commonwealth
   GB = c
 
   WORLD      << GB

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Curaçao / Caribbean
+  #  Curaçao / Caribbean
+  #    tags: caribbean, territory
   CW = c
 
   WORLD      << CW

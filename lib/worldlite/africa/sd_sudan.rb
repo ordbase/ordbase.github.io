@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Sudan / Africa
+  #  Sudan / Africa
+  #    tags: africa, northern africa, un, fifa, caf
   SD = c
 
   WORLD      << SD

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Mali / Africa
+  #  Mali / Africa
+  #    tags: africa, western africa, un, fifa, caf
   ML = c
 
   WORLD      << ML

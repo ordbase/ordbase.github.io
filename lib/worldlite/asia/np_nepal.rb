@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Nepal / Asia
+  #  Nepal / Asia
+  #    tags: asia, un, fifa, afc, south asia
   NP = c
 
   WORLD      << NP

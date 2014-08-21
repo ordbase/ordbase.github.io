@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Canada / North America
+  #  Canada / North America
+  #    tags: north america, un, g8, g20, commonwealth, fifa, concacaf, concacaf nafu
   CA = c
 
   WORLD      << CA

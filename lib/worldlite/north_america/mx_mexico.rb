@@ -3,7 +3,7 @@
 module WorldLite
 
   c = Country.new
-  c.name   = 'México '
+  c.name   = 'México'
   c.key    = 'mx'
   c.alpha3 = 'MEX'
   c.fifa   = 'MEX'
@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  México [Mexico] / North America
+  #  México [Mexico] / North America
+  #    tags: north america
   MX = c
 
   WORLD      << MX

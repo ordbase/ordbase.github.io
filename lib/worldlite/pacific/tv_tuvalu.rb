@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Tuvalu / Pacific
+  #  Tuvalu / Pacific
+  #    tags: un, commonwealth, ofc, microstate, pacific, polynesia
   TV = c
 
   WORLD      << TV

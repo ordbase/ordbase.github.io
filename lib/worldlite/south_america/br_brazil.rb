@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Brazil / South America
+  #  Brazil / South America
+  #    tags: south america, southern cone, un, g5, g20, fifa, conmebol
   BR = c
 
   WORLD      << BR

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Seychelles / Africa
+  #  Seychelles / Africa
+  #    tags: africa, eastern africa, indian ocean, un, commonwealth, fifa, caf, microstate
   YC = c
 
   WORLD      << YC

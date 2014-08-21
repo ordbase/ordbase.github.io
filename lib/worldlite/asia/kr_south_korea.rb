@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  South Korea / Asia
+  #  South Korea / Asia
+  #    tags: asia
   KR = c
 
   WORLD      << KR

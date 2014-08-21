@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = false
 
-  ##  Lithuania / Europe
+  #  Lithuania / Europe
+  #    tags: europe, northern europe, baltic, un, eu, fifa, uefa, schengen
   LT = c
 
   WORLD      << LT

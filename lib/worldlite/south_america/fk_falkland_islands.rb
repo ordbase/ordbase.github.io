@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Falkland Islands / South America
+  #  Falkland Islands / South America
+  #    tags: south america, territory
   FK = c
 
   WORLD      << FK

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Bahrain / Middle East
+  #  Bahrain / Middle East
+  #    tags: middle east, un, fifa, afc, microstate, western asia, afc waff, arabian peninsula
   BH = c
 
   WORLD      << BH

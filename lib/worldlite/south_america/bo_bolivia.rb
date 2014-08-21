@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Bolivia / South America
+  #  Bolivia / South America
+  #    tags: south america, andean states, un, fifa, conmebol
   BO = c
 
   WORLD      << BO

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Gibraltar / Europe
+  #  Gibraltar / Europe
+  #    tags: europe, southern europe, territory
   GI = c
 
   WORLD      << GI

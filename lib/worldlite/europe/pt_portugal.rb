@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Portugal / Europe
+  #  Portugal / Europe
+  #    tags: europe, southern europe, un, eu, fifa, uefa, euro, schengen
   PT = c
 
   WORLD      << PT

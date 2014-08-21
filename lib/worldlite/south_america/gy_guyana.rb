@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Guyana / South America
+  #  Guyana / South America
+  #    tags: south america, un, commonwealth, fifa, concacaf, concacaf cfu
   GY = c
 
   WORLD      << GY

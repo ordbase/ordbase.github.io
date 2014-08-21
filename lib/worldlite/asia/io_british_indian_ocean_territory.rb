@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  British Indian Ocean Territory / Asia
+  #  British Indian Ocean Territory / Asia
+  #    tags: asia, territory
   IO = c
 
   WORLD      << IO

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  France / Europe
+  #  France / Europe
+  #    tags: europe, western europe, un, g8, g20, eu, fifa, uefa, euro, schengen
   FR = c
 
   WORLD      << FR

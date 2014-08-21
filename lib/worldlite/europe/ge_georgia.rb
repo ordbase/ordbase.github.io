@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Georgia / Europe
+  #  Georgia / Europe
+  #    tags: europe, un, fifa, uefa, western asia, south caucasus
   GE = c
 
   WORLD      << GE

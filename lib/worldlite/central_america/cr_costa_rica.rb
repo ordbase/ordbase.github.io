@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Costa Rica / Central America
+  #  Costa Rica / Central America
+  #    tags: central america, un, fifa, concacaf, concacaf uncaf
   CR = c
 
   WORLD      << CR

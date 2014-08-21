@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Vanuatu / Pacific
+  #  Vanuatu / Pacific
+  #    tags: un, commonwealth, fifa, ofc, pacific, melanesia
   VU = c
 
   WORLD      << VU

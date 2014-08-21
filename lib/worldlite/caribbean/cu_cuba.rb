@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Cuba / Caribbean
+  #  Cuba / Caribbean
+  #    tags: caribbean, un, fifa, concacaf, concacaf cfu
   CU = c
 
   WORLD      << CU

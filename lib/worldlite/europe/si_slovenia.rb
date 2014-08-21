@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Slovenia / Europe
+  #  Slovenia / Europe
+  #    tags: europe, southern europe, central europe, un, eu, fifa, uefa, euro, schengen
   SI = c
 
   WORLD      << SI

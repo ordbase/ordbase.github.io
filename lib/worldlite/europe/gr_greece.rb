@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Greece / Europe
+  #  Greece / Europe
+  #    tags: europe, southern europe, un, eu, fifa, uefa, euro, schengen
   GR = c
 
   WORLD      << GR

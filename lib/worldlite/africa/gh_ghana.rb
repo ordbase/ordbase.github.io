@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Ghana / Africa
+  #  Ghana / Africa
+  #    tags: africa, western africa, un, commonwealth, fifa, caf
   GH = c
 
   WORLD      << GH

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Palestine / Middle East
+  #  Palestine / Middle East
+  #    tags: middle east, fifa, afc, western asia, afc waff, fertile crescent
   PS = c
 
   WORLD      << PS

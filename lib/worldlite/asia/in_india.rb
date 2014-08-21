@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  India / Asia
+  #  India / Asia
+  #    tags: asia, un, g5, g20, commonwealth, fifa, afc, south asia
   IN = c
 
   WORLD      << IN

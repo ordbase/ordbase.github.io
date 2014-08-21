@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Puerto Rico / Caribbean
+  #  Puerto Rico / Caribbean
+  #    tags: caribbean, fifa, concacaf, concacaf cfu, territory
   PR = c
 
   WORLD      << PR

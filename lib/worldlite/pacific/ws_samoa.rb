@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Samoa / Pacific
+  #  Samoa / Pacific
+  #    tags: un, commonwealth, fifa, ofc, pacific, polynesia
   WS = c
 
   WORLD      << WS

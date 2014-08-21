@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Finland / Europe
+  #  Finland / Europe
+  #    tags: europe, northern europe, nordic, un, eu, fifa, uefa, euro, schengen
   FI = c
 
   WORLD      << FI

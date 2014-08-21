@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Eritrea / Africa
+  #  Eritrea / Africa
+  #    tags: africa, eastern africa, un, fifa, caf
   ER = c
 
   WORLD      << ER

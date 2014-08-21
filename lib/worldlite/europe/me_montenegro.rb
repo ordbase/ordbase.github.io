@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Montenegro / Europe
+  #  Montenegro / Europe
+  #    tags: europe, southern europe, southeastern europe, balkans, un, fifa, uefa
   ME = c
 
   WORLD      << ME

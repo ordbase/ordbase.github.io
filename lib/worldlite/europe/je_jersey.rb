@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Jersey / Europe
+  #  Jersey / Europe
+  #    tags: europe, western europe, territory
   JE = c
 
   WORLD      << JE

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Algeria / Africa
+  #  Algeria / Africa
+  #    tags: africa, northern africa, un, fifa, caf
   DZ = c
 
   WORLD      << DZ

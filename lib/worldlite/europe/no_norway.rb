@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Norway / Europe
+  #  Norway / Europe
+  #    tags: europe, northern europe, scandinavia, nordic, un, fifa, uefa, schengen
   NO = c
 
   WORLD      << NO

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Yemen / Middle East
+  #  Yemen / Middle East
+  #    tags: middle east, un, fifa, afc, western asia, afc waff, arabian peninsula
   YE = c
 
   WORLD      << YE

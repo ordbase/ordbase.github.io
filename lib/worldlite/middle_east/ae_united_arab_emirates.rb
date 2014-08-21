@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  United Arab Emirates / Middle East
+  #  United Arab Emirates / Middle East
+  #    tags: middle east, un, fifa, afc, western asia, afc waff, arabian peninsula
   AE = c
 
   WORLD      << AE

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Uganda / Africa
+  #  Uganda / Africa
+  #    tags: africa, eastern africa, un, commonwealth, fifa, caf
   UG = c
 
   WORLD      << UG

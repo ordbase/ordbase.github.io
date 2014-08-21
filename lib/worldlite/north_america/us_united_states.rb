@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  United States / North America
+  #  United States / North America
+  #    tags: north america
   US = c
 
   WORLD      << US

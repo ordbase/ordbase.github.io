@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Isle of Man / Europe
+  #  Isle of Man / Europe
+  #    tags: europe, northern europe, western europe, territory
   IM = c
 
   WORLD      << IM

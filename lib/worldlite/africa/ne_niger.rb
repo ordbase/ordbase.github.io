@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Niger / Africa
+  #  Niger / Africa
+  #    tags: africa, western africa, un, fifa, caf
   NE = c
 
   WORLD      << NE

@@ -3,7 +3,7 @@
 module WorldLite
 
   c = Country.new
-  c.name   = 'Panamá '
+  c.name   = 'Panamá'
   c.key    = 'pa'
   c.alpha3 = 'PAN'
   c.fifa   = 'PAN'
@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Panamá [Panama] / Central America
+  #  Panamá [Panama] / Central America
+  #    tags: central america, un, fifa, concacaf, concacaf uncaf
   PA = c
 
   WORLD      << PA

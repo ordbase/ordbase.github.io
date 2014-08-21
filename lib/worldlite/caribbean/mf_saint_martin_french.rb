@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Saint Martin (French) / Caribbean
+  #  Saint Martin (French) / Caribbean
+  #    tags: caribbean, territory
   MF = c
 
   WORLD      << MF

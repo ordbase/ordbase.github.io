@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  San Marino / Europe
+  #  San Marino / Europe
+  #    tags: europe, southern europe, un, fifa, uefa, microstate
   SM = c
 
   WORLD      << SM

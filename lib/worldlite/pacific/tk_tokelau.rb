@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Tokelau / Pacific
+  #  Tokelau / Pacific
+  #    tags: pacific, territory
   TK = c
 
   WORLD      << TK

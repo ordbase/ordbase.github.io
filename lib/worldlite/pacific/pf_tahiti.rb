@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Tahiti / Pacific
+  #  Tahiti / Pacific
+  #    tags: ofc, pacific, polynesia, territory
   PF = c
 
   WORLD      << PF

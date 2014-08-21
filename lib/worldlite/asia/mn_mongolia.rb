@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Mongolia / Asia
+  #  Mongolia / Asia
+  #    tags: asia, un, fifa, afc, east asia
   MN = c
 
   WORLD      << MN

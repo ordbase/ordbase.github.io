@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Saint Helena / South America
+  #  Saint Helena / South America
+  #    tags: south america, territory
   SH = c
 
   WORLD      << SH

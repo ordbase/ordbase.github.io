@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Malawi / Africa
+  #  Malawi / Africa
+  #    tags: africa, eastern africa, un, commonwealth, fifa, caf
   MW = c
 
   WORLD      << MW

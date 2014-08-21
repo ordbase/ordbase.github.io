@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Singapore / Asia
+  #  Singapore / Asia
+  #    tags: asia, un, commonwealth, fifa, afc, microstate, southeast asia
   SG = c
 
   WORLD      << SG

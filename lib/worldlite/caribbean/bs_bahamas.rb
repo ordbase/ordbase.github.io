@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Bahamas / Caribbean
+  #  Bahamas / Caribbean
+  #    tags: caribbean, un, commonwealth, fifa, concacaf, concacaf cfu
   BS = c
 
   WORLD      << BS

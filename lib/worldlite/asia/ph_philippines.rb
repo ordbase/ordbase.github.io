@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Philippines / Asia
+  #  Philippines / Asia
+  #    tags: asia, un, fifa, afc, southeast asia
   PH = c
 
   WORLD      << PH

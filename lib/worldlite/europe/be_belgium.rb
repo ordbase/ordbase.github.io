@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = true
 
-  ##  Belgium / Europe
+  #  Belgium / Europe
+  #    tags: europe, un, eu, fifa, uefa, benelux, euro, schengen
   BE = c
 
   WORLD      << BE

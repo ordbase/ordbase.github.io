@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Mauritius / Africa
+  #  Mauritius / Africa
+  #    tags: africa, eastern africa, un, commonwealth, fifa, caf
   MU = c
 
   WORLD      << MU

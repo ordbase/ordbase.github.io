@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Nicaragua / Central America
+  #  Nicaragua / Central America
+  #    tags: central america, un, fifa, concacaf, concacaf uncaf
   NI = c
 
   WORLD      << NI

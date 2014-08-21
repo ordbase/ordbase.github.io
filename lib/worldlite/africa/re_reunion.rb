@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Réunion / Africa
+  #  Réunion / Africa
+  #    tags: africa, territory
   RE = c
 
   WORLD      << RE

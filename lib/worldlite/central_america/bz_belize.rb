@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Belize / Central America
+  #  Belize / Central America
+  #    tags: central america, un, commonwealth, fifa, concacaf, concacaf uncaf
   BZ = c
 
   WORLD      << BZ

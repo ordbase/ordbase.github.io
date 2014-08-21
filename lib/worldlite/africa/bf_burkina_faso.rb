@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Burkina Faso / Africa
+  #  Burkina Faso / Africa
+  #    tags: africa, western africa, un, fifa, caf
   BF = c
 
   WORLD      << BF

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Botswana / Africa
+  #  Botswana / Africa
+  #    tags: africa, southern africa, un, commonwealth, fifa, caf
   BW = c
 
   WORLD      << BW

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Malaysia / Asia
+  #  Malaysia / Asia
+  #    tags: asia, un, commonwealth, fifa, afc, southeast asia
   MY = c
 
   WORLD      << MY

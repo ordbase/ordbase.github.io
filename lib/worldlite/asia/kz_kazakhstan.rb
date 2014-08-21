@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Kazakhstan / Asia
+  #  Kazakhstan / Asia
+  #    tags: asia, europe, un, fifa, uefa, central asia
   KZ = c
 
   WORLD      << KZ

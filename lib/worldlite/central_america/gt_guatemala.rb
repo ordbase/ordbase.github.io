@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Guatemala / Central America
+  #  Guatemala / Central America
+  #    tags: central america, un, fifa, concacaf, concacaf uncaf
   GT = c
 
   WORLD      << GT

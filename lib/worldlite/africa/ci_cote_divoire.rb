@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Côte d'Ivoire / Africa
+  #  Côte d'Ivoire / Africa
+  #    tags: africa, western africa, un, fifa, caf
   CI = c
 
   WORLD      << CI

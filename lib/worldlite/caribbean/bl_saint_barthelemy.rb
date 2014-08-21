@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Saint Barthélemy / Caribbean
+  #  Saint Barthélemy / Caribbean
+  #    tags: caribbean, territory
   BL = c
 
   WORLD      << BL

@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Liechtenstein / Europe
+  #  Liechtenstein / Europe
+  #    tags: europe, western europe, un, fifa, uefa, microstate
   LI = c
 
   WORLD      << LI

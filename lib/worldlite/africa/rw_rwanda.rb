@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Rwanda / Africa
+  #  Rwanda / Africa
+  #    tags: africa, eastern africa, un, commonwealth, fifa, caf
   RW = c
 
   WORLD      << RW

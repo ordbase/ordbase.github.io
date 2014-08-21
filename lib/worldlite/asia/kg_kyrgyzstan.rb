@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Kyrgyzstan / Asia
+  #  Kyrgyzstan / Asia
+  #    tags: asia, un, fifa, afc, central asia
   KG = c
 
   WORLD      << KG

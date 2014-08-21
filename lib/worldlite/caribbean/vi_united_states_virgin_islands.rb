@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  United States Virgin Islands / Caribbean
+  #  United States Virgin Islands / Caribbean
+  #    tags: caribbean, territory
   VI = c
 
   WORLD      << VI

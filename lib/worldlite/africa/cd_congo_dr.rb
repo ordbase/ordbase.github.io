@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Congo DR / Africa
+  #  Congo DR / Africa
+  #    tags: africa, central africa, un, fifa, caf
   CD = c
 
   WORLD      << CD

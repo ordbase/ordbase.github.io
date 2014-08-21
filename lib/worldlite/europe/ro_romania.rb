@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = true
   c.euro   = false
 
-  ##  Romania / Europe
+  #  Romania / Europe
+  #    tags: europe, eastern europe, southeastern europe, un, eu, fifa, uefa
   RO = c
 
   WORLD      << RO

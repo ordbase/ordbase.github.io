@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  European Union / Europe
+  #  European Union / Europe
+  #    tags: europe, supra
   EU = c
 
   WORLD      << EU

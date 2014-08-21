@@ -17,7 +17,8 @@ module WorldLite
   c.eu     = false
   c.euro   = false
 
-  ##  Martinique / Caribbean
+  #  Martinique / Caribbean
+  #    tags: caribbean, concacaf, concacaf cfu, territory
   MQ = c
 
   WORLD      << MQ
