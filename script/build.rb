@@ -115,32 +115,61 @@ end
 
 
 
-class CountryPage
+class Page
 
-  attr_reader :country
-  attr_reader :opts
-
-  def initialize( country, opts={} )
-    @country = country
-    @opts    = opts
-  end
-
-  def render( opts={})
-    tmpl = read_template( 'country.rb' )
-
-   # create and run templates, filling member data variables
-   #  new(str, safe_level=nil, trim_mode=nil, eoutvar='_erbout')
-   # note: save_level = 0 - ignores save_level 
-    ERB.new( tmpl, 0, '<>' ).result( binding )
+  def render
+    # create and run templates, filling member data variables
+    #  new(str, safe_level=nil, trim_mode=nil, eoutvar='_erbout')
+    # note: save_level = 0 - ignores save_level 
+    ERB.new( template, 0, '<>' ).result( binding )
   end
 
   def save( path )
     ## make sure path exists
     FileUtils.mkdir_p( File.dirname( path ))
-    
+
     File.open( path, 'w' ) do |f|
-      f.write render( opts )
+      f.write render()
     end
+  end
+
+end  # class Page
+
+
+class SummaryPage < Page
+
+  def template
+    read_template( 'SUMMARY.md' )
+  end
+
+#######
+# helpers
+
+def fmt_str( value, opts={} )    ## use: allow_nil as an option; needed? -why?? why not??
+  if value.nil? || value.empty?   # note: empty? is ''
+    '?'
+  else
+    ## hack: remove translations []  e.g. México [Mexico] -> México etc.
+    value = value.gsub( /\[[^\]]+\]/, '' )
+    ## note: escape ' to \'  e.g. Cote d'ivoire etc.
+    value = value.strip   # remove leading n trailings whitespaces
+    value
+  end
+end
+
+end # class SummaryPage
+
+
+class CountryPage < Page
+
+  attr_reader :country
+
+  def initialize( country )
+    @country = country
+  end
+
+  def template
+    read_template( 'country.rb' )
   end
 
 #######
@@ -187,4 +216,17 @@ end
 end  # class CountryPage
 
 
+
+def build_summary_page
+
+  output_path = "#{BUILD_DIR}/SUMMARY.md"
+
+  page = SummaryPage.new
+  page.save( output_path )
+
+end # method build_summary_page
+
+
 build_gem()
+build_summary_page()
+
