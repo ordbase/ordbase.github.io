@@ -15,30 +15,30 @@ All data included as good ol' ruby code. Example:
 
 module WorldLite
 
-  c = Country.new
-  c.name   = 'Austria'
-  c.key    = 'at'
-  c.alpah2 = 'AT'     # iso two-letter country code (ISO 3166-1 alpha-2)
-  c.alpha3 = 'AUT'    # iso three-letter country code (ISO 3166-1 alpha-3)
-  c.fifa   = 'AUT'    # football country code (fifa = Fédération Internationale de Football Association)
-  c.ioc    = 'AUT'    # olympics country code (ioc = International Olympic Committee)
-  c.net    = 'at'     # internet top level domain
-  c.motor  = 'A'      # motor vehicle license plate code
-  c.num3   = '040'    # iso numeric three-digits code as string (ISO 3166-1 numeric)
-  c.num    = 40       # iso numeric code as number
+  AT = Country.new do |c|
 
-  c.continent_name =  'Europe'
+    c.name   = 'Austria'
+    c.key    = 'at'
+    c.alpah2 = 'AT'   # iso two-letter country code (ISO 3166-1 alpha-2)
+    c.alpha3 = 'AUT'  # iso three-letter country code (ISO 3166-1 alpha-3)
+    c.fifa   = 'AUT'  # football country code (fifa = Fédération Int'le de Football Association)
+    c.ioc    = 'AUT'  # olympics country code (ioc = International Olympic Committee)
+    c.net    = 'at'   # internet top level domain
+    c.motor  = 'A'    # motor vehicle license plate code
+    c.num3   = '040'  # iso numeric three-digits code as string (ISO 3166-1 numeric)
+    c.num    = 40     # iso numeric code as number
 
-  c.un     = true     # United Nations member?  -- 193 member countries
-  c.eu     = true     # European Union member?  -- 27 member countries
-  c.euro   = true     # Euro Zone member?       -- 17 member countries
+    c.continent_name =  'Europe'
 
-  c.wikipedia = 'Austria'   # e.g. see en.wikipedia.org/wiki/Austria
-  c.wikidata  = 40          # e.g. see wikidata.org/wiki/Q40
-  c.factbook  = 'au'        # e.g. see www.cia.gov/library/publications/the-world-factbook/geos/au.html
+    c.un     = true     # United Nations member?  -- 193 member countries
+    c.eu     = true     # European Union member?  -- 27 member countries
+    c.euro   = true     # Euro Zone member?       -- 17 member countries
 
-
-  AT = c
+    c.wikipedia = 'Austria'   # e.g. see en.wikipedia.org/wiki/Austria
+    c.wikidata  = 40          # e.g. see wikidata.org/wiki/Q40
+    c.factbook  = 'au'        # e.g. see www.cia.gov/.../the-world-factbook/geos/au.html
+    
+  end
 
   WORLD      << AT
   WORLD_UN   << AT
@@ -57,148 +57,45 @@ end  # module WorldLite
 
 Use like:
 
-```
->> require 'worldlite'
->> include WorldLite
+```ruby
+require 'worldlite'
+include WorldLite
 
->> WORLD.size
-=> 245
->> WORLD_UN.size
-=> 193
->> WORLD_G20.size
-=> 20
->> WORLD_COMMONWEALTH.size
-=> 54
->> WORLD_FIFA.size
-=> 243
->> WORLD_WTO.size
-=> 157
->> WORLD_OECD.size
-=> 34
->> EUROPE.size
-=> 51
->> EUROPE_UEFA.size
-=> 54
->> EUROPE_EU.size
-=> 27
->> EUROPE_EURO.size
-=> 17
+WORLD.size       # => 245
+WORLD_UN.size    # => 193
+WORLD_G20.size   # => 20
+WORLD_COMMONWEALTH.size  # => 54
+WORLD_FIFA.size  # => 243
+WORLD_WTO.size   # => 157
+WORLD_OECD.size  # => 34
 
->> AT.class.name
-=> WorldLite::Country
->> AT.name              # get name for country AT
-=> Austria
->> AT.continent_name
-=> Europe
->> AT.alpha3
-=> AUT
->> AT.slug
-=> austria
->> AT.un?
-=> true
->> AT.fifa?
-=> true
->> AT.g20?
-=> false
->> AT.eu?
-=> true
->> AT.euro?
-=> true
->> AT.wikpedia
-=> Austria
->> AT.wikidata
-=> 40
->> AT.wikpedia_url
-=> http://en.wikipedia.org/wiki/Austria
->> AT.wikidata_url
-=> http://www.wikidata.org/wiki/Q40
->> AT.factbook
-=> au
->> AT.factbook_url
-=> http://www.cia.gov/library/publications/the-world-factbook/geos/au.html
+EUROPE.size      # => 51
+EUROPE_UEFA.size # => 54
+EUROPE_EU.size   # => 27
+EUROPE_EURO.size # => 17
+
+AT.class.name     # => 'WorldLite::Country'
+AT.name           # => 'Austria'
+AT.continent_name # => 'Europe'
+AT.alpha3         # => 'AUT'
+AT.slug           # => 'austria'
+AT.un?            # => true
+AT.fifa?          # => true
+AT.g20?           # => false
+AT.eu?            # => true
+AT.euro?          # => true
+
+AT.wikpedia       # => 'Austria'
+AT.wikidata       # => 40
+AT.wikpedia_url   # => 'http://en.wikipedia.org/wiki/Austria'
+AT.wikidata_url   # => 'http://www.wikidata.org/wiki/Q40'
+AT.factbook       # => 'au'
+AT.factbook_url   # => 'http://www.cia.gov/.../the-world-factbook/geos/au.html'
 ```
 
-## Bonus: World Factbook
+## worldlite Summary - 1 Supra / 196 Countries / 48 Territories
 
-```
->> require 'factbook'
->> page = Factbook::Page.new( AT.factbook )   ## will fetch and parse data from online World Factbook
-
->> page.data['geo']['location']['text']
-=> Central Europe, north of Italy and Slovenia
-
->> page.data['geo']['land_boundaries']['border_countries']
-=> Czech Republic 362 km, Germany 784 km, Hungary 366 km, Italy 430 km, Liechtenstein 35 km, Slovakia 91 km, Slovenia 330 km, Switzerland 164 km
-
->> page.data['geo']['elevation_extremes']['lowest_point']
-=> Neusiedler See 115 m
-
->> page.data['comm']['telephones_mobile_cellular']['text']
-=> 13.023 million (2011)
-
->> page.data['comm']['internet_hosts']['text']
-=> 3.512 million (2012)
-
->> pp page.data
-```
-
-```json
-{
-  "intro": {
-    "background": {
-      "text": "Once the center of power for the large Austro-Hungarian Empire,
-               Austria was reduced to a small republic after its defeat in World War ..."
-    }
-  },
-  "geo": {
-    "location": {
-      "text": "Central Europe, north of Italy and Slovenia"
-    },
-    "geographic_coordinates": {
-      "text": "47 20 N, 13 20 E"
-    },
-    "map_references": {
-      "text": "Europe"
-    },
-    "area": {
-      "total": "83,871 sq km",
-      "land": "82,445 sq km",
-      "water": "1,426 sq km"
-    },
-    "area_comparative": {
-      "text": "slightly smaller than Maine"
-    },
-    "land_boundaries": {
-      "total": "2,562 km",
-      "border_countries": "Czech Republic 362 km, Germany 784 km, Hungary 366 km, Italy 430 km, Liechtenstein 35 km, Slovakia 91 km, Slovenia 330 km, Switzerland 164 km"
-    },
-    "coastline": {
-      "text": "0 km (landlocked)"
-    },
-    "maritime_claims": {
-      "text": "none (landlocked)"
-    },
-    "climate": {
-      "text": "temperate; continental, cloudy; cold winters with frequent rain and some snow in lowlands and snow in mountains; moderate summers with occasional showers"
-    },
-    "terrain": {
-      "text": "in the west and south mostly mountains (Alps); along the eastern and northern margins mostly flat or gently sloping"
-    },
-    "elevation_extremes": {
-      "lowest_point": "Neusiedler See 115 m",
-      "highest_point": "Grossglockner 3,798 m"
-    },
-    "natural_resources": {
-      "text": "oil, coal, lignite, timber, iron ore, copper, zinc, antimony, magnesite, tungsten, graphite, salt, hydropower"
-    },
-    ...
-```
-
-## worldlite Countries Summary
-
-### 1 Supras / 196 Countries / 48 Territories
-
-#### Europe - 1 Supras / 49 Countries / 10 Territories
+#### Europe - 1 Supra / 49 Countries / 10 Territories
 
 1:
 `eu` European Union (?)
@@ -541,7 +438,83 @@ Use like:
 
 
 
-#### Others - 0 Countries / 0 Territories
+## Bonus: World Factbook
+
+```ruby
+require 'factbook'
+
+# fetch and parse data from online World Factbook
+page = Factbook::Page.new( AT.factbook )   
+
+page['geo']['location']['text']
+# => Central Europe, north of Italy and Slovenia
+
+page['geo']['land_boundaries']['border_countries']
+# => Czech Republic 362 km, Germany 784 km, Hungary 366 km, Italy 430 km, ...
+
+page['geo']['elevation_extremes']['lowest_point']
+# => Neusiedler See 115 m
+
+page['comm']['telephones_mobile_cellular']['text']
+# => 13.023 million (2011)
+
+page['comm']['internet_hosts']['text']
+# => 3.512 million (2012)
+
+pp page.data
+```
+
+```json
+{
+  "intro": {
+    "background": {
+      "text": "Once the center of power for the large Austro-Hungarian Empire,
+               Austria was reduced to a small republic after its defeat in World War ..."
+    }
+  },
+  "geo": {
+    "location": {
+      "text": "Central Europe, north of Italy and Slovenia"
+    },
+    "geographic_coordinates": {
+      "text": "47 20 N, 13 20 E"
+    },
+    "map_references": {
+      "text": "Europe"
+    },
+    "area": {
+      "total": "83,871 sq km",
+      "land": "82,445 sq km",
+      "water": "1,426 sq km"
+    },
+    "area_comparative": {
+      "text": "slightly smaller than Maine"
+    },
+    "land_boundaries": {
+      "total": "2,562 km",
+      "border_countries": "Czech Republic 362 km, Germany 784 km, Hungary 366 km, Italy 430 km, Liechtenstein 35 km, Slovakia 91 km, Slovenia 330 km, Switzerland 164 km"
+    },
+    "coastline": {
+      "text": "0 km (landlocked)"
+    },
+    "maritime_claims": {
+      "text": "none (landlocked)"
+    },
+    "climate": {
+      "text": "temperate; continental, cloudy; cold winters with frequent rain and some snow in lowlands and snow in mountains; moderate summers with occasional showers"
+    },
+    "terrain": {
+      "text": "in the west and south mostly mountains (Alps); along the eastern and northern margins mostly flat or gently sloping"
+    },
+    "elevation_extremes": {
+      "lowest_point": "Neusiedler See 115 m",
+      "highest_point": "Grossglockner 3,798 m"
+    },
+    "natural_resources": {
+      "text": "oil, coal, lignite, timber, iron ore, copper, zinc, antimony, magnesite, tungsten, graphite, salt, hydropower"
+    },
+    ...
+```
 
 
 ## Alternatives Libraries and Gems
