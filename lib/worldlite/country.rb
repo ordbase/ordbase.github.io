@@ -37,6 +37,12 @@ class Country
                ##  :schengen,  # flag
                ##  :commonwealth # flag
 
+
+   def initialize
+     yield( self ) if block_given?    # allow setup with code block
+   end
+
+
    def un?()   @un   end   # boolean convenience methods
    def eu?()   @eu   end
    def euro?() @euro end
