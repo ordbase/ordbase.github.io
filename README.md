@@ -1,7 +1,7 @@
 # worldlite - lightweight public domain country data (all data included as good ol' ruby code - no database, no dependencies, no copyright)
 
-* home  :: [github.com/worlddb/world.lite.ruby](https://github.com/worlddb/world.lite.ruby)
-* bugs  :: [github.com/worlddb/world.lite.ruby/issues](https://github.com/worlddb/world.lite.ruby/issues)
+* home  :: [github.com/worlddb/world.lite](https://github.com/worlddb/world.lite)
+* bugs  :: [github.com/worlddb/world.lite/issues](https://github.com/worlddb/world.lite/issues)
 * gem   :: [rubygems.org/gems/worldlite](https://rubygems.org/gems/worldlite)
 * rdoc  :: [rubydoc.info/gems/worldlite](http://rubydoc.info/gems/worldlite)
 * forum :: [groups.google.com/group/openmundi](https://groups.google.com/group/openmundi)
