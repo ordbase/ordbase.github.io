@@ -44,7 +44,7 @@ resulting in:
 
 
 
-For more see  [/content »](content)
+For more see  [/content »](https://github.com/ordbase/ordbase.github.io/tree/master/content)
 
 
 
@@ -73,7 +73,7 @@ Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a48
 <https://ordbase.github.io/diypunks/58_4_19@4x.png>)
 
 
-For more see  [/diypunks »](diypunks)
+For more see  [/diypunks »](https://github.com/ordbase/ordbase.github.io/tree/master/diypunks)
 
 
 
