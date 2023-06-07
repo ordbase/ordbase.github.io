@@ -70,7 +70,7 @@ Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a48
 
 4x ![](58_4_19@4x.png) <br>
 (Source:
-<https://ordbase.github.io//diypunks/58_4_19@4x.png>)
+<https://ordbase.github.io/diypunks/58_4_19@4x.png>)
 
 
 For more see  [/diypunks »](diypunks)
