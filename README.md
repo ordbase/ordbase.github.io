@@ -1,4 +1,4 @@
-# Generative ORC-721 Protcol / Standard for Bitcoin & Co
+# Generative ORC-721 Protocol / Standard for Bitcoin & Co
 
 
 Welcome.
