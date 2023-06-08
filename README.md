@@ -8,25 +8,21 @@ New to Generative ORC-721?  See the [Getting Started Guide & Documentation »](h
 
 
 
-
-
 ##  Images
 
-### 1) Indexed by inscription id
+### 1) Indexed by inscription num(ber)
 
 All mints (valid, broken - if auto-fix possible, "cursed" overflow "negatives")
-will get generated in 1x (eg. 24x24px) and 4x (eg. 96x24px) and uploaded for public use / reference.
+will get generated in 1x (eg. 24×24px) and 4x (eg. 96×96px) and uploaded for public use / reference.
 
 
-The naming format is `/content/<inscription_id>.png` for 1x
-and `/content/<inscription_id>@4x.png` for 4x.
+The naming format is `/num/<inscription_num>.png` for 1x
+and `/num/<inscription_num>@4x.png` for 4x.
 
 
-Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0) -  The World's 1st (Generative) ORC-721 ever! - Genesis:
+Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0) -  The World's 1st (Generative) ORC-721 ever! - Genesis.
 
-
-
-The id is `31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0`
+The inscription num(ber) is 9959200  (yes, sub 10 million member club!)
 with the content:
 
 ``` json
@@ -35,23 +31,23 @@ with the content:
 
 resulting in:
 
-![](content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png) <br>
+![](num/9959200.png) <br>
 (Source:
-<https://ordbase.github.io/content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png>)
+<https://ordbase.github.io/num/9959200.png>)
 
-4x ![](content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0@4x.png) <br>
-(Source: <https://ordbase.github.io/content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0@4x.png>
+4x ![](num/9959200@4x.png) <br>
+(Source: <https://ordbase.github.io/num/9959200@4x.png>)
 
 
 
-For more see  [/content »](https://github.com/ordbase/ordbase.github.io/tree/master/content)
+For more see  [/num »](https://github.com/ordbase/ordbase.github.io/tree/master/num)
 
 
 
 ### 2) Indexed by g(enerative) specs / ids
 
 All mints (valid, broken - if auto-fix possible, "cursed" overflow "negatives")
-will get generated in 1x (24x24px) and 4x (96x24px) and uploaded for public use / reference.
+will get generated in 1x (24×24px) and 4x (96×96px) and uploaded for public use / reference.
 
 
 The naming format is `/<slug>/<generative_ids>.png` for 1x
@@ -76,6 +72,32 @@ Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a48
 For more see  [/diypunks »](https://github.com/ordbase/ordbase.github.io/tree/master/diypunks)
 
 
+
+
+
+
+
+### Bonus -  Indexed by inscription id
+
+The naming format is `/content/<inscription_id>.png` for 1x
+and `/content/<inscription_id>@4x.png` for 4x.
+
+Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0) -  The World's 1st (Generative) ORC-721 ever! - Genesis.
+
+The inscription id is `31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0` -
+resulting in:
+
+
+![](content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png) <br>
+(Source:
+<https://ordbase.github.io/content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png>)
+
+4x ![](content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0@4x.png) <br>
+(Source: <https://ordbase.github.io/content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0@4x.png>)
+
+
+
+For more see  [/content »](https://github.com/ordbase/ordbase.github.io/tree/master/content)
 
 
 
