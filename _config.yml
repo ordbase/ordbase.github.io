@@ -1,6 +1,7 @@
 ## note: add site title for primer (default) theme to avoid duplicate titles getting (auto-) added
 ##   note: title must match the heading 1 in the readme
-title: "Generative ORC-721 Protocol / Standard for Bitcoin & Co"
+##   note - title in html - e.g. & escaped to &amp; (!!)
+title: "Generative ORC-721 Protocol / Standard for Bitcoin &amp; Co"
 
 ## add emoji support
 
