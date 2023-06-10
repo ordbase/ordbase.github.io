@@ -79,8 +79,7 @@ For more see  [/diypunks »](https://github.com/ordbase/ordbase.github.io/tree/m
 
 ### Bonus -  Indexed by inscription id
 
-The naming format is `/content/<inscription_id>.png` for 1x
-and `/content/<inscription_id>@4x.png` for 4x.
+The naming format is `/content/<inscription_id>.png` (for 1x).
 
 Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0) -  The World's 1st (Generative) ORC-721 ever! - Genesis.
 
@@ -92,8 +91,6 @@ resulting in:
 (Source:
 <https://ordbase.github.io/content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png>)
 
-4x ![](content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0@4x.png) <br>
-(Source: <https://ordbase.github.io/content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0@4x.png>)
 
 
 
