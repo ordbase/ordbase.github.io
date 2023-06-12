@@ -10,13 +10,30 @@ New to Generative ORC-721?  See the [Getting Started Guide & Documentation »](h
 
 ##  Images
 
-### 1) Indexed by inscription num(ber)
-
 All mints (valid, broken - if auto-fix possible, "cursed" overflow "negatives")
 will get generated in 1x (eg. 24×24px) and 4x (eg. 96×96px) and uploaded for public use / reference.
+If your image for your mint insribe is missing here,  please 
+first check the indexed (& confirmed) mint list (ordered by inscribe num) if included:
+
+- [diypunks/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diypunks/mint.csv)
+- [diypunks-v2/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diypunks-v2/mint.csv)
+- [diyordibots/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diyordibots/mint.csv)
+- [diyordibots-v2/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diyordibots-v2/mint.csv)
+- [diycoolcats/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diycoolcats/mint.csv)
+- [btcwords/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/btcwords/mint.csv)
+- [diybirdies/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diybirdies/mint.csv)
 
 
-The naming format is `/num/<inscription_num>.png` for 1x
+For now please report and ask for wen image? in the ordinal punks discord (in the #generative-orc-721 channel).
+For an invite
+see <https://twitter.com/OrdinalPunks/status/1620230583711576068>. 
+
+
+### 1) Indexed by inscription num(ber)    
+
+_The inscription long count 0,1,2,3,4 ... to infinity_
+
+The naming format is `/num/<inscription_num>.png` for 1x  
 and `/num/<inscription_num>@4x.png` for 4x.
 
 
@@ -43,11 +60,29 @@ resulting in:
 For more see  [/num »](https://github.com/ordbase/ordbase.github.io/tree/master/num)
 
 
+### 2) Indexed by inscription id
 
-### 2) Indexed by g(enerative) specs / ids
+_The bitcoin inscription transaction (tx) id with input index_
 
-All mints (valid, broken - if auto-fix possible, "cursed" overflow "negatives")
-will get generated in 1x (24×24px) and 4x (96×96px) and uploaded for public use / reference.
+
+The naming format is `/content/<inscription_id>.png` (for 1x).
+
+Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0) -  The World's 1st (Generative) ORC-721 ever! - Genesis.
+
+The inscription id is `31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0` -
+resulting in:
+
+
+![](content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png) <br>
+(Source:
+<https://ordbase.github.io/content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png>)
+
+
+For more see  [/content »](https://github.com/ordbase/ordbase.github.io/tree/master/content)
+
+
+
+### Bonus - Indexed by  collection (slug) + g(enerative) specs / ids
 
 
 The naming format is `/<slug>/<generative_ids>.png` for 1x
@@ -70,31 +105,6 @@ Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a48
 
 
 For more see  [/diypunks »](https://github.com/ordbase/ordbase.github.io/tree/master/diypunks)
-
-
-
-
-
-
-
-### Bonus -  Indexed by inscription id
-
-The naming format is `/content/<inscription_id>.png` (for 1x).
-
-Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0) -  The World's 1st (Generative) ORC-721 ever! - Genesis.
-
-The inscription id is `31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0` -
-resulting in:
-
-
-![](content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png) <br>
-(Source:
-<https://ordbase.github.io/content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png>)
-
-
-
-
-For more see  [/content »](https://github.com/ordbase/ordbase.github.io/tree/master/content)
 
 
 
