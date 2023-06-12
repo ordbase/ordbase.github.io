@@ -12,7 +12,7 @@ New to Generative ORC-721?  See the [Getting Started Guide & Documentation »](h
 
 All mints (valid, broken - if auto-fix possible, "cursed" overflow "negatives")
 will get generated in 1x (eg. 24×24px) and 4x (eg. 96×96px) and uploaded for public use / reference.
-If your image for your mint insribe is missing here,  please 
+If your image for your mint inscribe is missing here,  please 
 first check the indexed (& confirmed) mint list (ordered by inscribe num) if included:
 
 - [diypunks/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diypunks/mint.csv)
