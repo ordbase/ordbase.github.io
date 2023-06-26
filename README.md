@@ -49,6 +49,7 @@ _The inscription long count 0,1,2,3,4 ... to infinity_
 The naming format is `/num/<inscription_num>.png` for 1x
 and `/num/<inscription_num>@4x.png` for 4x.
 
+<!-->
 
 Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0) -  The World's 1st (Generative) ORC-721 ever! - Genesis.
 
@@ -68,6 +69,27 @@ resulting in:
 4x ![](num/9959200@4x.png) <br>
 (Source: <https://ordbase.github.io/num/9959200@4x.png>)
 
+-->
+
+Example - [Inscription №13418907](https://ordinals.com/inscription/54a448aad17203e322b3d421d91c12e1e4c1b1ca46ef2849e52774aeb7a3bd3bi0) -  The World's 1st (Generative) ORC-721 ever (using the new standard text format)! - Genesis.
+
+The inscription num(ber) is 13418907
+with the content:
+
+```
+og mint diyphunks 5 57 38
+```
+
+resulting in:
+
+![](num/13418907.png) <br>
+(Source:
+<https://ordbase.github.io/num/13418907.png>)
+
+4x ![](num/13418907@4x.png) <br>
+(Source: <https://ordbase.github.io/num/13418907@4x.png>)
+
+
 
 
 For more see  [/num »](https://github.com/ordbase/ordbase.github.io/tree/master/num)
@@ -80,21 +102,21 @@ _The bitcoin inscription transaction (tx) id with input index_
 
 The naming format is `/content/<inscription_id>.png` (for 1x).
 
-Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0) -  The World's 1st (Generative) ORC-721 ever! - Genesis.
+Example - [Inscription №13418907](https://ordinals.com/inscription/54a448aad17203e322b3d421d91c12e1e4c1b1ca46ef2849e52774aeb7a3bd3bi0) -  The World's 1st (Generative) ORC-721 ever (using the new standard text format)! - Genesis.
 
-The inscription id is `31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0` -
+The inscription id is `54a448aad17203e322b3d421d91c12e1e4c1b1ca46ef2849e52774aeb7a3bd3bi0` -
 resulting in:
 
 
-![](content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png) <br>
+![](content/54a448aad17203e322b3d421d91c12e1e4c1b1ca46ef2849e52774aeb7a3bd3bi0.png) <br>
 (Source:
-<https://ordbase.github.io/content/31bd26c29a483fbcde4c44d0a7f21741d72931e107aae978f43d1f6511b7bba8i0.png>)
+<https://ordbase.github.io/content/54a448aad17203e322b3d421d91c12e1e4c1b1ca46ef2849e52774aeb7a3bd3bi0.png>)
 
 
 For more see  [/content »](https://github.com/ordbase/ordbase.github.io/tree/master/content)
 
 
-
+<!--
 ### Bonus - Indexed by  collection (slug) + g(enerative) specs / ids
 
 
@@ -118,6 +140,8 @@ Example - [Inscription №9959200](https://ordinals.com/inscription/31bd26c29a48
 
 
 For more see  [/diypunks »](https://github.com/ordbase/ordbase.github.io/tree/master/diypunks)
+
+-->
 
 
 
