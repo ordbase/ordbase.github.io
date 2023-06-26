@@ -8,11 +8,18 @@ New to Generative ORC-721?  See the [Getting Started Guide & Documentation »](h
 
 
 
+**Q: Wen image (in wallet) - i see text?**
+
+Please, see [Frequently Asked Questions (F.A.Q) and Answers »](https://github.com/ordbase/generative-orc-721/blob/master/FAQ.md)
+
+
+
+
 ##  Images
 
 All mints (valid, broken - if auto-fix possible, "cursed" overflow "negatives")
 will get generated in 1x (eg. 24×24px) and 4x (eg. 96×96px) and uploaded for public use / reference.
-If your image for your mint inscribe is missing here,  please 
+If your image for your mint inscribe is missing here,  please
 first check the indexed (& confirmed) mint list (ordered by inscribe num) if included:
 
 - [diypunks/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diypunks/mint.csv)
@@ -22,18 +29,24 @@ first check the indexed (& confirmed) mint list (ordered by inscribe num) if inc
 - [diycoolcats/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diycoolcats/mint.csv)
 - [btcwords/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/btcwords/mint.csv)
 - [diybirdies/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diybirdies/mint.csv)
+- [diyapes/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diyapes/mint.csv)
+- [diyaliens/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diyaliens/mint.csv)
+- [diymartians/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diymartians/mint.csv)
+- [orangepixels/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/orangepixels/mint.csv)
+- [diyphunks/mint.csv](https://github.com/ordbase/generative-orc-721/blob/master/diyphunks/mint.csv)
+
 
 
 For now please report and ask for wen image? in the ordinal punks discord (in the #generative-orc-721 channel).
 For an invite
-see <https://twitter.com/OrdinalPunks/status/1620230583711576068>. 
+see <https://twitter.com/OrdinalPunks/status/1620230583711576068>.
 
 
-### 1) Indexed by inscription num(ber)    
+### 1) Indexed by inscription num(ber)
 
 _The inscription long count 0,1,2,3,4 ... to infinity_
 
-The naming format is `/num/<inscription_num>.png` for 1x  
+The naming format is `/num/<inscription_num>.png` for 1x
 and `/num/<inscription_num>@4x.png` for 4x.
 
 
