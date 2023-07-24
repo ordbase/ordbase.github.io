@@ -7,11 +7,11 @@ Welcome.
 New to Generative ORC-721?  See the [Getting Started Guide & Documentation »](https://github.com/ordbase/generative-orc-721)
 
 
-
+<!--
 **Q: Wen image (in wallet) - i see text?**
 
 Please, see [Frequently Asked Questions (F.A.Q) and Answers »](https://github.com/ordbase/generative-orc-721/blob/master/FAQ.md)
-
+-->
 
 
 
